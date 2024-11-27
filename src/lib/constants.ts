@@ -20,7 +20,11 @@ export const siteLinks: NavLink[] = [
 
 export const externalLinks: NavLink[] = [
   {
+    name: "Github Repository",
+    href: "https://github.com/riad-azz/instagram-video-downloader",
+  },
+  {
     name: "Creator",
-    href: "https://www.instagram.com/harsh.lahre/",
+    href: "https://www.instagram.com/riadazz/",
   },
 ];
