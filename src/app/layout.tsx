@@ -1,7 +1,5 @@
 import { Metadata } from "next";
 import { DM_Sans as FontSans } from "next/font/google";
-import Script from "next/script";
-import { FAQPage, WithContext } from "schema-dts";
 
 import { Navbar, Footer } from "@/components/layout";
 
@@ -19,7 +17,7 @@ const fontSans = FontSans({
 
 export const metadata: Metadata = {
   title: "Insta Load - Download Instagram Videos, Reels & IGTV",
-  description: "Insta Load is an Instagram video downloader tool that can be used to download IG videos, reels, and IGTV directly to your mobile or computer.",
+  description: "Insta  Load is an Instagram video downloader tool that can be used to download IG videos, reels, and IGTV directly to your mobile or computer.",
   openGraph: {
     title: 'Insta Load - Download Instagram Videos, Reels & IGTV',
     description: 'Insta Load is an Instagram video downloader tool that can be used to download IG videos, reels, and IGTV directly to your mobile or computer.',
@@ -37,6 +35,77 @@ export const metadata: Metadata = {
     ],
   }
 };
+const jsonLd = {
+  "@context": "http://schema.org",
+  "@graph": [
+      {
+          "@type": "WebSite",
+          "name": "Insta Load",
+          "alternateName": [
+              "Instagram Video Downloader",
+              "Instaload",
+              "Instaloader",
+              "ig video downloader",
+              "Insta Video Download"
+          ],
+          "url": "https://instaload.hindisink.com"
+      },
+      {
+          "@type": "WebPage",
+          "name": "Insta Load - Download Instagram Videos, Reels & IGTV",
+          "speakable": {
+              "@type": "SpeakableSpecification",
+              "xpath": [
+                  "/html/head/title",
+                  "/html/head/meta[@name='description']/@content",
+                  "/html/body/main//div[1]/h1"
+              ]
+          },
+          "inLanguage": "en",
+          "description": "Insta Load is an Instagram video downloader tool that can be used to download IG videos, reels, and IGTV directly to your mobile or computer.",
+          "url": "https://instaload.hindisink.com"
+      },
+      {
+          "@type": "Organization",
+          "name": "Insta Load",
+          "alternateName": "Instagram video downloader",
+          "url": "https://instaload.hindisink.com",
+          "email": "contact@hindisink.com",
+          "logo": "https://instaload.hindisink.com/images/logo.png"
+      },
+      {
+          "@type": "WebApplication",
+          "name": "InstaLoad",
+          "alternateName": [
+              "Instagram Video Downloader",
+              "Instaload",
+              "Instaloader",
+              "ig video downloader",
+              "Insta Video Download"
+          ],
+          "url": "https://instaload.hindisink.com",
+          "image": "https://instaload.hindisink.com/images/logo.png",
+          "operatingSystem": "Windows, Linux, iOS, Android, OSX, macOS",
+          "applicationCategory": "UtilitiesApplication",
+          "featureList": [
+              "Video downloader",
+              "Reel Downloader",
+              "IGTV Downloader"
+          ],
+          "contentRating": "Everyone",
+          "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.83",
+              "reviewCount": "1472"
+          },
+          "offers": {
+              "@type": "Offer",
+              "price": "0"
+          }
+      }
+  ]
+}
+
 
 export default function RootLayout({
   children,
@@ -51,6 +120,14 @@ export default function RootLayout({
           "overflow-x-hidden bg-background font-sans antialiased"
         )}
       >
+        <section>
+      {/* Add JSON-LD to your page */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      {/* ... */}
+    </section>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
