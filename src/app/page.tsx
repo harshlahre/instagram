@@ -14,7 +14,7 @@ export default function HomePage() {
       </section>
       <section className="section-text">
         <div className="section-text__card">
-          <Image src="/images/instagram-bg.webp" alt="Instagram Reels Download" width="289" height="220"/>
+          <Image src="/images/instagram-bg.webp" priority alt="Instagram Reels Download" width="289" height="220"/>
         <div className="section-text__content">
             <h2>Instagram Videos and Reels Download</h2>
             <p>Insta Load is a free online tool that helps you to download instagram videos & reels at HD quality. You can download unlimited Instagram videos at no cost and without watermark.</p>
