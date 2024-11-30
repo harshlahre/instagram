@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { DM_Sans as FontSans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
 
 import { Navbar, Footer } from "@/components/layout";
 
@@ -142,6 +143,7 @@ export default function RootLayout({
             <Footer />
           </ReactQueryProvider>
         </ThemeProvider>
+        <Analytics/>
       </body>
     </html>
   );

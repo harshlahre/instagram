@@ -26,21 +26,21 @@ export default function HomePage() {
 <h2 id="download1">How to Download Instagram Reels?</h2>
 <ul className="down-steps">
     <li>
-        <Image src="/images/media-steps1.webp" loading="lazy" alt="Copy the URL" width="312" height="198"/>
+        <Image src="/images/media-steps1.webp" loading="lazy" alt="Copy Instagram Video URL" width="312" height="198"/>
         <div>
             <h3>Copy the Link</h3>
             <p>Open the Instagram app or the website and copy the link of any video, reels, or IGTV.</p>
         </div>
     </li>
     <li>
-        <Image src="/images/media-steps2.webp" loading="lazy" alt="Paste the link" width="312" height="198"/>
+        <Image src="/images/media-steps2.webp" loading="lazy" alt="Paste video URL in the Box" width="312" height="198"/>
         <div>
             <h3>Paste on the Box</h3>
             <p>Open this page and paste the URL on the given box and click on the "Download" button.</p>
         </div>
     </li>
     <li>
-        <Image src="/images/media-steps3.webp" loading="lazy" alt="Download" width="312" height="198"/>
+        <Image src="/images/media-steps3.webp" loading="lazy" alt="Click on download button" width="312" height="198"/>
         <div>
             <h3>Download</h3>
             <p>A new page will appear on the screen, where click on the three-dot and select the "Download" option.</p>
@@ -69,7 +69,7 @@ export default function HomePage() {
 <div className="accordion" itemScope itemProp="mainEntity" itemType="https://schema.org/Question">
     <div className="accordion-header" itemProp="name">Can I save videos directly through Instagram App?</div>
     <div className="accordion-content" itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-        <p itemProp="text">Yes, you can download videos on the Instagram app, but only if the creator allows it. Even then, you will get the video with a watermark. That's why our tool helps you to download Instagram videos without any watermark.
+        <p itemProp="text">Yes, you can download videos on the Instagram app, but only if the creator allows it. Even then, you will get the video with a watermark. That's why our tool helps you to download any Instagram video without any watermark.
         </p>
     </div>
 </div>
