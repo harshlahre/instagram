@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col py-8">
       <h1 className="text-balance mb-8 text-center text-4xl font-extrabold">
-        Instagram Downloader
+        Instagram Video Downloader
       </h1>
       <p className="desc">Download Instagram Videos, Reels and IGTV</p>
       <section className="flex flex-col items-center justify-center gap-4">
@@ -16,13 +16,13 @@ export default function HomePage() {
           <Image src="/images/instagram-bg.webp" alt="Instagram Reels Download" width="289" height="220"/>
         <div className="section-text__content">
             <h2>Instagram Videos and Reels Download</h2>
-            <p>Insta Load is a free online tool that helps you to download instagram videos & reels at high quality. Along with public videos, you can also downlaod instagram private videos at no cost and without watermark.</p>
+            <p>Insta Load is a free online tool that helps you to download instagram videos & reels at HD quality. You can download unlimited Instagram videos at no cost and without watermark.</p>
         </div>
        </div>
      </section>
       <section className="article">
         <hr/>
-<h2>How to Download Instagram Reels?</h2>
+<h2 id="download1">How to Download Instagram Reels?</h2>
 <ul className="down-steps">
     <li>
         <Image src="/images/media-steps1.webp" loading="lazy" alt="Copy the URL" width="312" height="198"/>
@@ -48,40 +48,40 @@ export default function HomePage() {
 </ul>
 <hr/>
 
-<h2>Frequently Asked Questions for ODT 2021</h2>
-<p>Here are some FAQs about the Microsoft Office Deployment Tool that will help you understand its installation process
-    and resolve possible errors.</p>
+<h2>FAQs for Instagram Downloader</h2>
+<p>Here are some frequently asked questions about the Instagram Downloader and downloading stuff from Instagram. These questions generally come to the mind of most people who download Instagram videos or reels.
+</p>
 
-<div>
-<div className="accordion">
-    <div className="accordion-header">What is the confuguration.xml file?</div>
-    <div className="accordion-content">
-        <p>The configuration.xml file contains instructions on customizing and installing the Microsoft 365 Apps for
-            Office Deployment Tool such as MS Office version, language, and architechture (32bit or 64bit) of the
-            windows.</p>
+<div className="faq-questions">
+<div className="accordion" itemProp="mainEntity" itemType="https://schema.org/Question">
+    <div className="accordion-header" itemProp="name">What is an Instagram Video Downloader?</div>
+    <div className="accordion-content" itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+        <p>Instagram video downloader is an online web-based tool that lets you download videos, reels, and IGTV from Instagram. It is the best solution for using those videos later offline. Insta Load is the best tool for downloading any video from Instagram.</p>
     </div>
 </div>
-<div className="accordion">
-    <div className="accordion-header">Is the Office Deployment Tool compatible with Windows 10 or 11?</div>
-    <div className="accordion-content">
-        <p>Yes, the Office Deployment Tool is fully compatible with the current version of Windows 10 and Windows 11,
-            provided it meets the minimum system requirements.</p>
+<div className="accordion" itemProp="mainEntity" itemType="https://schema.org/Question">
+    <div className="accordion-header" itemProp="name">Do I need to sign in with my Instagram account?</div>
+    <div className="accordion-content" itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+        <p>No, you don't need to integrate or sign in with your Instagram account before downloading any video.</p>
     </div>
 </div>
-<div className="accordion">
-    <div className="accordion-header">What are the minimum system requirements for ODT?</div>
-    <div className="accordion-content">
-        <p>The minimal system requirements to run the ODT tool are Windows 10 or 11 with a 1.7 GHz processor, at least
-            4GB of hard disk space, and 2GB of RAM. A display resolution of 1024x768 will work well and it's recommended
-            to have a DirectX 10 Graphics card.
+<div className="accordion" itemProp="mainEntity" itemType="https://schema.org/Question">
+    <div className="accordion-header" itemProp="name">Can I save videos directly through Instagram App?</div>
+    <div className="accordion-content" itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+        <p>Yes, you can download videos on the Instagram app, but only if the creator allows it. Even then, you will get the video with a watermark. That's why our tool helps you to download Instagram videos without any watermark.
         </p>
     </div>
 </div>
-<div className="accordion">
-    <div className="accordion-header">Can I use ODT to deploy Office offline?</div>
-    <div className="accordion-content">
-        <p>Yes, There's an offline method for deploying Microsoft Office offline using ODT. You can download all
-            required office files to your computer and perform the installation without an internet connection.</p>
+<div className="accordion" itemProp="mainEntity" itemType="https://schema.org/Question">
+    <div className="accordion-header" itemProp="name">Can I download private Instagram videos?</div>
+    <div className="accordion-content" itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+        <p>No, Instagram videos from any private account can't be downloaded with this tool. Due to some privacy concerns, we do not allow downloading private videos with our tool.</p>
+    </div>
+</div>
+<div className="accordion" itemProp="mainEntity" itemType="https://schema.org/Question">
+    <div className="accordion-header" itemProp="name">How many Instagram videos can I download??</div>
+    <div className="accordion-content" itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+        <p>There are no limits on the number of videos downloaded, you can download as many videos as possible.</p>
     </div>
 </div>
 </div>

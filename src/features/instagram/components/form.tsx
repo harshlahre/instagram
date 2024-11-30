@@ -98,7 +98,7 @@ export function InstagramVideoForm() {
         </div>
         
         <p className="text-muted-foreground text-center">
-          *Instagram Private videos can also be downloaded.
+          <a href="/#download1">How to Download Instagram Videos?</a>
         </p>
       </form>
     </Form>

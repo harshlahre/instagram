@@ -1,5 +1,7 @@
 import { Metadata } from "next";
 import { DM_Sans as FontSans } from "next/font/google";
+import Script from "next/script";
+import { FAQPage, WithContext } from "schema-dts";
 
 import { Navbar, Footer } from "@/components/layout";
 
@@ -16,8 +18,24 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Instagram Video Downloader",
-  description: "Download Instagram Videos",
+  title: "Insta Load - Download Instagram Videos, Reels & IGTV",
+  description: "Insta Load is an Instagram video downloader tool that can be used to download IG videos, reels, and IGTV directly to your mobile or computer.",
+  openGraph: {
+    title: 'Insta Load - Download Instagram Videos, Reels & IGTV',
+    description: 'Insta Load is an Instagram video downloader tool that can be used to download IG videos, reels, and IGTV directly to your mobile or computer.',
+    url: 'https://instaload.hindisink.com',
+    locale: 'en',
+    type: 'website',
+    siteName: 'Insta Load',
+    images: [
+      {
+        url: 'http://instaload.hindisink.com/images/instagram-bg.webp',
+        width: 654,
+        height: 500,
+        alt: 'Instagram Video Downloader',
+      },
+    ],
+  }
 };
 
 export default function RootLayout({

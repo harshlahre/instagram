@@ -223,7 +223,7 @@ a:hover {
 }
 .down-steps {
     display: grid;
-    gap: 15px;
+    gap: 24px;
     grid-template-areas: "a b c";
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
