@@ -52,39 +52,39 @@ export default function HomePage() {
 <p>Here are some frequently asked questions about the Instagram Downloader and downloading stuff from Instagram. These questions generally come to the mind of most people who download Instagram videos or reels.
 </p>
 
-<div className="faq-questions">
+<section className="faq-questions" itemType="https://schema.org/FAQPage">
 <div className="accordion" itemProp="mainEntity" itemType="https://schema.org/Question">
     <div className="accordion-header" itemProp="name">What is an Instagram Video Downloader?</div>
     <div className="accordion-content" itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-        <p>Instagram video downloader is an online web-based tool that lets you download videos, reels, and IGTV from Instagram. It is the best solution for using those videos later offline. Insta Load is the best tool for downloading any video from Instagram.</p>
+        <p itemProp="text">Instagram video downloader is an online web-based tool that lets you download videos, reels, and IGTV from Instagram. It is the best solution for using those videos later offline. Insta Load is the best tool for downloading any video from Instagram.</p>
     </div>
 </div>
 <div className="accordion" itemProp="mainEntity" itemType="https://schema.org/Question">
     <div className="accordion-header" itemProp="name">Do I need to sign in with my Instagram account?</div>
     <div className="accordion-content" itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-        <p>No, you don't need to integrate or sign in with your Instagram account before downloading any video.</p>
+        <p itemProp="text">No, you don't need to integrate or sign in with your Instagram account before downloading any video.</p>
     </div>
 </div>
 <div className="accordion" itemProp="mainEntity" itemType="https://schema.org/Question">
     <div className="accordion-header" itemProp="name">Can I save videos directly through Instagram App?</div>
     <div className="accordion-content" itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-        <p>Yes, you can download videos on the Instagram app, but only if the creator allows it. Even then, you will get the video with a watermark. That's why our tool helps you to download Instagram videos without any watermark.
+        <p itemProp="text">Yes, you can download videos on the Instagram app, but only if the creator allows it. Even then, you will get the video with a watermark. That's why our tool helps you to download Instagram videos without any watermark.
         </p>
     </div>
 </div>
 <div className="accordion" itemProp="mainEntity" itemType="https://schema.org/Question">
     <div className="accordion-header" itemProp="name">Can I download private Instagram videos?</div>
     <div className="accordion-content" itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-        <p>No, Instagram videos from any private account can't be downloaded with this tool. Due to some privacy concerns, we do not allow downloading private videos with our tool.</p>
+        <p itemProp="text">No, Instagram videos from any private account can't be downloaded with this tool. Due to some privacy concerns, we do not allow downloading private videos with our tool.</p>
     </div>
 </div>
 <div className="accordion" itemProp="mainEntity" itemType="https://schema.org/Question">
     <div className="accordion-header" itemProp="name">How many Instagram videos can I download??</div>
     <div className="accordion-content" itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
-        <p>There are no limits on the number of videos downloaded, you can download as many videos as possible.</p>
+        <p itemProp="text">There are no limits on the number of videos downloaded, you can download as many videos as possible.</p>
     </div>
 </div>
-</div>
+</section>
 <script src="/xtra.js"></script>
 
       </section>
