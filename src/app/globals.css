@@ -284,3 +284,23 @@ a:hover {
       width: 100%;
   }
 }
+.terms-privacy p {
+  margin-bottom: 20px;
+}
+.terms-privacy h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+.terms-privacy li {
+  margin-bottom: 10px;
+  list-style: disc;
+}
+.terms-privacy ul {
+  margin: 10px 0 10px 40px;
+}
+.terms-privacy a {
+  color: #136cf0;
+}
+.mb-4, .text-2xl, .font-bold {
+  font-size: 28px;
+}
