@@ -18,7 +18,9 @@ export function downloadFile(
   a.href = url;
   a.download = options.filename || "file";
   if (options.target) {
-    a.target = options.target;
+    a.target = options.target || "_blank";
+  } else {
+    a.target = "_blank"; // Can change to "_blank" if desired
   }
   a.style.display = "none";
   document.body.appendChild(a);
