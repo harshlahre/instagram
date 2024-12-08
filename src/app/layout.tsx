@@ -39,6 +39,10 @@ export const metadata: Metadata = {
       { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
     ],
   },
+  appleWebApp: {
+    title: 'iGram Saver',
+    statusBarStyle: 'black-translucent',
+  },
   openGraph: {
     title: 'iGram Saver - Instagram Video Downloader',
     description: 'iGramSaver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.',
