@@ -167,7 +167,6 @@ export default function RootLayout({
             <Footer />
           </ReactQueryProvider>
         </ThemeProvider>
-        <Analytics/>
       </body>
     </html>
   );
