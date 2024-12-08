@@ -23,7 +23,7 @@ export default function HomePage() {
      </section>
       <section className="article">
         <hr/>
-<h2 id="download1">How to Download Instagram Reels?</h2>
+<h2 id="download1">How to Download Instagram Videos?</h2>
 <ul className="down-steps">
     <li>
         <Image src="/images/steps-1.webp" loading="lazy" alt="Copy Instagram Video URL" width="312" height="198"/>
