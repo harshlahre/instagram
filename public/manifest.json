@@ -1,7 +1,7 @@
 {
-  "name": "Instagram Video Downloader",
-  "short_name": "InstaDownloader",
-  "description": "Download Instagram videos easily with our free online video downloader.",
+  "name": "iGram Saver",
+  "short_name": "iG Saver",
+  "description": "iGram Saver is an online tool for downloading Instagram videos, reels, and IGTV in HD quality directly to your mobile, tablet, or PC.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -28,11 +28,12 @@
   "keywords": [
     "Instagram video downloader",
     "download IG videos",
-    "Instagram video saver"
+    "Instagram video saver",
+    "iGram Saver"
   ],
-  "author": "riad-azz",
-  "copyright": "© 2023 riad-azz. All rights reserved.",
+  "author": "Harsh Lahre",
+  "copyright": "© 2024 iGram Saver - All rights reserved.",
   "rating": "General",
-  "apple-mobile-web-app-title": "InstaDownloader",
+  "apple-mobile-web-app-title": "iGram Saver",
   "apple-mobile-web-app-status-bar-style": "black-translucent"
 }

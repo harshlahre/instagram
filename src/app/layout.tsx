@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { DM_Sans as FontSans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react"
-import Head from 'next/head';
 
 import { Navbar, Footer } from "@/components/layout";
 
@@ -18,20 +17,20 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Insta Load - Download Instagram Videos, Reels & IGTV",
-  description: "Insta  Load is an Instagram video downloader tool that can be used to download IG videos, reels, and IGTV directly to your mobile or computer.",
+  title: "iGram Saver - Instagram Video Downloader",
+  description: "iGramSaver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.",
   openGraph: {
-    title: 'Insta Load - Download Instagram Videos, Reels & IGTV',
-    description: 'Insta Load is an Instagram video downloader tool that can be used to download IG videos, reels, and IGTV directly to your mobile or computer.',
-    url: 'https://instaload.hindisink.com',
-    locale: 'en',
+    title: 'iGram Saver - Instagram Video Downloader',
+    description: 'iGramSaver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.',
+    url: 'https://igramsaver.io',
+    locale: 'en-US',
     type: 'website',
-    siteName: 'Insta Load',
+    siteName: 'iGram Saver',
     images: [
       {
-        url: 'http://instaload.hindisink.com/images/instagram-bg.webp',
-        width: 654,
-        height: 500,
+        url: 'http://igramsaver.io/images/main-image.webp',
+        width: 500,
+        height: 420,
         alt: 'Instagram Video Downloader',
       },
     ],
@@ -42,19 +41,19 @@ const jsonLd = {
   "@graph": [
       {
           "@type": "WebSite",
-          "name": "Insta Load",
+          "name": "iGram Saver",
           "alternateName": [
               "Instagram Video Downloader",
-              "Instaload",
-              "Instaloader",
+              "iGramSaver",
+              "IG Saver",
               "ig video downloader",
               "Insta Video Download"
           ],
-          "url": "https://instaload.hindisink.com"
+          "url": "https://igramsaver.io"
       },
       {
           "@type": "WebPage",
-          "name": "Insta Load - Download Instagram Videos, Reels & IGTV",
+          "name": "iGram Saver - Instagram Video Downloader",
           "speakable": {
               "@type": "SpeakableSpecification",
               "xpath": [
@@ -64,29 +63,29 @@ const jsonLd = {
               ]
           },
           "inLanguage": "en",
-          "description": "Insta Load is an Instagram video downloader tool that can be used to download IG videos, reels, and IGTV directly to your mobile or computer.",
-          "url": "https://instaload.hindisink.com"
+          "description": "iGramSaver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.",
+          "url": "https://igramsaver.io"
       },
       {
           "@type": "Organization",
-          "name": "Insta Load",
+          "name": "iGram Saver",
           "alternateName": "Instagram video downloader",
-          "url": "https://instaload.hindisink.com",
-          "email": "contact@hindisink.com",
-          "logo": "https://instaload.hindisink.com/images/logo.png"
+          "url": "https://igramsaver.io",
+          "email": "support@igramsaver.io",
+          "logo": "https://igramsaver.io/images/logo.png"
       },
       {
           "@type": "WebApplication",
-          "name": "InstaLoad",
+          "name": "iGram Saver",
           "alternateName": [
               "Instagram Video Downloader",
-              "Instaload",
-              "Instaloader",
+              "iGram Saver",
+              "IG Saver",
               "ig video downloader",
               "Insta Video Download"
           ],
-          "url": "https://instaload.hindisink.com",
-          "image": "https://instaload.hindisink.com/images/logo.png",
+          "url": "https://igramsaver.io",
+          "image": "https://igramsaver.io/images/logo.png",
           "operatingSystem": "Windows, Linux, iOS, Android, OSX, macOS",
           "applicationCategory": "UtilitiesApplication",
           "featureList": [
@@ -98,7 +97,7 @@ const jsonLd = {
           "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.83",
-              "reviewCount": "1472"
+              "reviewCount": "1635"
           },
           "offers": {
               "@type": "Offer",
@@ -115,7 +114,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en-US" suppressHydrationWarning>
       <body
         className={cn(
           fontSans.variable,

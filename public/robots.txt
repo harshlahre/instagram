@@ -4,4 +4,4 @@ Allow: /
 User-agent: GPTBot
 Disallow: /
 
-Sitemap: https://instaload.hindisink.com/sitemap.xml
+Sitemap: https://igramsaver.io/sitemap.xml

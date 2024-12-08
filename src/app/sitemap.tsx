@@ -3,19 +3,19 @@ import type { MetadataRoute } from 'next'
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://instaload.hindisink.com',
+      url: 'https://igramsaver.io',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
     },
     {
-      url: 'https://instaload.hindisink.com/privacy-policy',
+      url: 'https://igramsaver.io/privacy-policy',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
     },
     {
-      url: 'https://instaload.hindisink.com/terms-of-service',
+      url: 'https://igramsaver.io/terms-of-service',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.5,

@@ -18,8 +18,11 @@ export function Navbar() {
           "w-full items-center border-b bg-accent/20"
         )}
       >
-        <div className="hidden select-none text-xl font-extrabold uppercase md:block">
-          <a href="/">Insta Load</a>
+        
+        <div className="hidden select-none text-xl font-extrabold md:block">
+          <Link href="/">
+          iGram Saver
+          </Link>
         </div>
         <MobileNav className="md:hidden" />
         <div className="ml-auto flex items-center gap-4">
@@ -27,18 +30,14 @@ export function Navbar() {
             <Link href="/" className="hover:underline">
               Home
             </Link>
-            <Link
-              target="_blank"
-              href="https://github.com/riad-azz"
-              className="hover:underline"
-              rel="nofollow"
-            >
-              Creator
+            <Link href="/disclaimer" className="hover:underline">
+              Disclaimer
             </Link>
           </div>
           <ThemeToggle />
         </div>
       </nav>
+      
     </header>
   );
 }
@@ -47,8 +46,8 @@ export function Footer() {
   return (
     <footer className="h-8 w-full bg-background/50 text-center text-secondary-foreground">
       <div className="flex items-center justify-between border-t border-input px-4 py-2">
-        <div aria-label="Disclaimer" className="text-sm font-semibold">
-          We are not affiliated with Instagram or Meta
+        <div aria-label="Disclaimer">
+          <p>© 2024 <Link href="/">iGram Saver</Link></p>
         </div>
         <div className="flex items-center gap-1 text-sm">
           <Link href="/terms-of-service" className="hover:underline">
