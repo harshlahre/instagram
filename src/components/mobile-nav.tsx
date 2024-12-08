@@ -1,20 +1,12 @@
 "use client";
 
 import React from "react";
-
 import Link from "next/link";
-
 import { usePathname } from "next/navigation";
-
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-
 import { Button } from "@/components/ui/button";
-
 import { Menu } from "lucide-react";
-
-import { cn } from "@/lib/utils";
 import { externalLinks, siteLinks } from "@/lib/constants";
-import { Separator } from "./ui/separator";
 
 export function MobileNav({ className }: { className?: string }) {
   const [open, setOpen] = React.useState(false);
