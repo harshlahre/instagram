@@ -31,9 +31,13 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/images/logo.png',
-    apple: '/apple-icon.png',
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
+    ],
+    shortcut: ['/images/logo.png'],
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
   },
   openGraph: {
     title: 'iGram Saver - Instagram Video Downloader',
