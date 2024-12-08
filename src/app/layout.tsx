@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { DM_Sans as FontSans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react"
+import type { Viewport } from 'next'
 
 import { Navbar, Footer } from "@/components/layout";
 
@@ -16,9 +17,24 @@ const fontSans = FontSans({
   variable: "--font-sans",
 });
 
+export const viewport: Viewport = {
+  themeColor: '#4285f4',
+}
+
 export const metadata: Metadata = {
   title: "iGram Saver - Instagram Video Downloader",
   description: "iGramSaver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.",
+  applicationName: 'iGram Saver',
+  category: 'tools and utilities',
+  alternates: {
+    canonical: 'https://igramsaver.io'
+  },
+  manifest: "/site.webmanifest",
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/images/logo.png',
+    apple: '/apple-icon.png',
+  },
   openGraph: {
     title: 'iGram Saver - Instagram Video Downloader',
     description: 'iGramSaver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.',

@@ -86,7 +86,7 @@ export default function HomePage() {
     </div>
 </div>
 </section>
-<Script src="/xtra.js"></Script>
+<script defer src="/xtra.js"></script>
 
       </section>
       <p className="disclaimer">*We are not affiliated with Instagram or Meta in any way.</p>
