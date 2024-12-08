@@ -15,6 +15,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: 'https://igramsaver.io/disclaimer',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    },
+    {
       url: 'https://igramsaver.io/terms-of-service',
       lastModified: new Date(),
       changeFrequency: 'monthly',
