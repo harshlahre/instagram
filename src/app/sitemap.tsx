@@ -11,13 +11,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: 'https://igramsaver.io/privacy-policy',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'monthly',
       priority: 0.8,
+    },
+    {
+      url: 'https://igramsaver.io/disclaimer',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
     },
     {
       url: 'https://igramsaver.io/terms-of-service',
       lastModified: new Date(),
-      changeFrequency: 'weekly',
+      changeFrequency: 'monthly',
       priority: 0.5,
     },
   ]
