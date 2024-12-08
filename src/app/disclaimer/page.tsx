@@ -4,6 +4,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
     title: "Disclaimer - iGram Saver",
     description: "This website (igramsaver.io) is not affiliated with Meta or Instagram in any way. Also, this website does not violate any policy or guideline of",
+    alternates: {
+      canonical: 'https://igramsaver.io/disclaimer'
+    },
     openGraph: {
       title: 'Disclaimer - iGram Saver',
       description: 'This website (igramsaver.io) is not affiliated with Meta or Instagram in any way. Also, this website does not violate any policy or guideline of',

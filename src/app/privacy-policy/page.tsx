@@ -5,6 +5,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy Policy - iGram Saver",
   description: "At iGram Saver, accessible from https://igramsaver.io, one of our main priorities is the privacy of our visitors. This Privacy Policy document",
+  alternates: {
+    canonical: 'https://igramsaver.io/privacy-policy'
+  },
   openGraph: {
     title: 'Privacy Policy - iGram Saver',
     description: 'At iGram Saver, accessible from https://igramsaver.io, one of our main priorities is the privacy of our visitors. This Privacy Policy document',

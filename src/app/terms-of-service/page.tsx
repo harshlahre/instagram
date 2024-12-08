@@ -4,6 +4,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Terms Of Service - iGram Saver",
   description: "Welcome to iGram Saver! These terms and conditions outline the rules and regulations for the use of iGram Saver's Website, located at",
+  alternates: {
+	canonical: 'https://igramsaver.io/terms-of-service'
+  },
   openGraph: {
     title: 'Terms Of Service - iGram Saver',
     description: 'Welcome to iGram Saver! These terms and conditions outline the rules and regulations for the use of iGram Saver Website, located at',
