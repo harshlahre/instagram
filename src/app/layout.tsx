@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { DM_Sans as FontSans } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react"
 import type { Viewport } from 'next'
+import Script from "next/script";
 
 import { Navbar, Footer } from "@/components/layout";
 
@@ -139,14 +140,18 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en-US" suppressHydrationWarning>
-      <head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2008420195999107"
-     crossOrigin="anonymous"></script></head>
       <body
         className={cn(
           fontSans.variable,
           "overflow-x-hidden bg-background font-sans antialiased"
         )}
       >
+        <Script
+  id="adsbygoogle-init"
+  strategy="afterInteractive"
+  crossOrigin="anonymous"
+  src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2008420195999107"
+/>
         <section>
       {/* Add JSON-LD to your page */}
       <script
