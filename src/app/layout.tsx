@@ -23,7 +23,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: "iGram Saver - Instagram Video Downloader, Reels & IGTV",
+  title: "iGram Saver - Instagram Video Downloader",
   description: "iGramSaver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.",
   applicationName: 'iGram Saver',
   category: 'tools and utilities',
@@ -152,6 +152,7 @@ export default function RootLayout({
   crossOrigin="anonymous"
   src= "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2008420195999107"
 />
+<Script defer src="/xtra.js"></Script>
         <section>
       {/* Add JSON-LD to your page */}
       <script
