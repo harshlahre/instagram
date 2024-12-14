@@ -1,5 +1,6 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
 import  Image  from "next/image"
+import Script from "next/script";
 
 export default function HomePage() {
   return (
@@ -84,6 +85,7 @@ export default function HomePage() {
         <p itemProp="text">There are no limits on the number of videos downloaded, you can download as many videos as possible.</p>
     </div>
 </div>
+<Script defer src="/xtra.js"></Script>
 </section>
 
 
