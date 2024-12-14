@@ -1,6 +1,5 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
 import  Image  from "next/image"
-import Script from "next/script"
 
 export default function HomePage() {
   return (
