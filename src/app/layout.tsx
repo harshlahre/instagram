@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { DM_Sans as FontSans } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react"
 import type { Viewport } from 'next'
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 import { Navbar, Footer } from "@/components/layout";
 
@@ -153,6 +153,7 @@ export default function RootLayout({
       />
       {/* ... */}
     </section>
+
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -167,7 +168,7 @@ export default function RootLayout({
             <Footer />
           </ReactQueryProvider>
         </ThemeProvider>
-        <Analytics/>
+        <GoogleAnalytics gaId="G-8YPRPJ0BTG" />
       </body>
     </html>
   );
