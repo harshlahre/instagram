@@ -19,10 +19,11 @@ export function Navbar() {
         )}
       >
         
-        <div className="hidden select-none text-xl font-extrabold md:block">
-          iGramSaver.io
-        </div>
+        
         <MobileNav className="md:hidden" />
+        <div className="gs-sitename select-none text-xl md:block">
+          iGram Saver
+        </div>
         <div className="ml-auto flex items-center gap-4">
           <div className="hidden items-center gap-4 text-lg sm:gap-8 sm:pr-8 md:flex">
             <Link href="/" className="hover:underline">

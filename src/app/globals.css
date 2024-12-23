@@ -409,3 +409,7 @@ a:hover {
 .why-choose li {
   margin-bottom: 10px;
 }
+.gs-sitename {
+  padding-left: 10px;
+  font-weight: 600;
+}
