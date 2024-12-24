@@ -121,13 +121,26 @@ const jsonLd = {
           "contentRating": "Everyone",
           "aggregateRating": {
               "@type": "AggregateRating",
-              "ratingValue": "4.83",
-              "reviewCount": "1635"
+              "ratingValue": "4.84",
+              "reviewCount": "1655"
           },
           "offers": {
               "@type": "Offer",
               "price": "0"
           }
+      },
+      {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+              "@id": "https://igramsaver.io",
+              "name": "Instagram Video Downloader - iGram Saver"
+            }
+        }
+    ]
       }
   ]
 }
