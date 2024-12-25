@@ -14,7 +14,7 @@ A website that lets you download Instagram videos easily and quickly. You can pa
 
 _Note: Instagram stories aren't supported._
 
-You can preview and try the website live in Vercel here: [instaload.hindisink.com](https://instaload.hindisink.com)
+You can preview and try the website live in Vercel here: [igramsaver.io](https://igramsaver.io)
 
 ## Website Preview
 
