@@ -97,7 +97,7 @@ export function InstagramVideoForm() {
           </Button>
         </div>
         
-        <p className="text-muted-foreground text-center">
+        <p className="text-center">
           <a href="/#download1">How to Download Instagram Videos?</a>
         </p>
       </form>
