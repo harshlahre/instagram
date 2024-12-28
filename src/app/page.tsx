@@ -9,10 +9,10 @@ export default function HomePage() {
         <div className="text-center adsbygoogle">
       <Adsense
         client="ca-pub-2008420195999107"
-        slot="8779273451"
+        slot="1109463467"
         style={{ display: "block" }}
-        data-ad-format="auto"
-        data-full-width-responsive="true"
+        layout="in-article"
+        format="fluid"
       />
     </div>
       <h1 className="text-balance mb-8 text-center text-4xl font-extrabold">
