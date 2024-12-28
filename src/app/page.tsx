@@ -1,9 +1,20 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
 import  Image  from "next/image"
+import React from "react";
+import { Adsense } from "@ctrl/react-adsense";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col py-8">
+        <div className="text-center adsbygoogle">
+      <Adsense
+        client="ca-pub-2008420195999107"
+        slot="8779273451"
+        style={{ display: "block" }}
+        data-ad-format="auto"
+        data-full-width-responsive="true"
+      />
+    </div>
       <h1 className="text-balance mb-8 text-center text-4xl font-extrabold">
         Instagram Video Downloader
       </h1>
