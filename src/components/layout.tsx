@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 
 export function Navbar() {
   return (
+    <div>
     <header className="h-fit w-full">
       <nav
         className={cn(
@@ -38,6 +39,14 @@ export function Navbar() {
       </nav>
       
     </header>
+
+    <ins className="text-center adsbygoogle"
+     style={{ display: 'block' }}
+     data-ad-client="ca-pub-2008420195999107"
+     data-ad-slot="8779273451"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+     </div>
   );
 }
 
