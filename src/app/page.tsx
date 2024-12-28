@@ -4,19 +4,6 @@ import  Image  from "next/image"
 export default function HomePage() {
   return (
     <div className="flex flex-col py-8">
-        <div className="pisco">
-         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2008420195999107"
-     crossOrigin="anonymous"></script>
-<ins className="adsbygoogle"
-     style={{ display: "block" }}
-     data-ad-client="ca-pub-2008420195999107"
-     data-ad-slot="8779273451"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
       <h1 className="text-balance mb-8 text-center text-4xl font-extrabold">
         Instagram Video Downloader
       </h1>
