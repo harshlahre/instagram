@@ -5,8 +5,18 @@ import Link from "next/link";
 
 import { MobileNav } from "./mobile-nav";
 import { ThemeToggle } from "./theme-toggle";
+import { useEffect } from "react";
 
 import { cn } from "@/lib/utils";
+
+useEffect(() => {
+  var ads = document.getElementsByClassName('adsbygoogle').length;
+  for (var i = 0; i < ads; i++) {
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {}
+  }
+}, []);
 
 export function Navbar() {
   return (
