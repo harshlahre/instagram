@@ -5,20 +5,8 @@ import Link from "next/link";
 
 import { MobileNav } from "./mobile-nav";
 import { ThemeToggle } from "./theme-toggle";
-import { useEffect } from "react";
 
 import { cn } from "@/lib/utils";
-
-const AdSenseBanner = () => {
-  useEffect(() => {
-    try {
-      // Reinitialize Ads by Google if needed
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (e) {
-      console.error("AdSense error: ", e);
-    }
-  }, []);
-}
 
 export function Navbar() {
   return (
@@ -51,13 +39,6 @@ export function Navbar() {
       </nav>
       
     </header>
-
-    <ins className="text-center adsbygoogle"
-     style={{ display: 'block' }}
-     data-ad-client="ca-pub-2008420195999107"
-     data-ad-slot="8779273451"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
      </div>
   );
 }
