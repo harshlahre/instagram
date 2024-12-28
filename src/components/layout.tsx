@@ -9,6 +9,17 @@ import { useEffect } from "react";
 
 import { cn } from "@/lib/utils";
 
+const AdSenseBanner = () => {
+  useEffect(() => {
+    try {
+      // Reinitialize Ads by Google if needed
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense error: ", e);
+    }
+  }, []);
+}
+
 export function Navbar() {
   return (
     <div>
@@ -73,12 +84,3 @@ export function Footer() {
     </footer>
   );
 }
-
-useEffect(() => {
-  var ads = document.getElementsByClassName('adsbygoogle').length;
-  for (var i = 0; i < ads; i++) {
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (e) {}
-  }
-}, []);
