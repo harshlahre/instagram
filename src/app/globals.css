@@ -201,7 +201,7 @@ a:hover {
 }
 @media (max-width: 768px) {
   .section-text {
-      margin: 32px auto;
+      margin: 32px 0;
   }
 }
 @media (max-width: 768px) {
