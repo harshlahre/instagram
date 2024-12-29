@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { DM_Sans as FontSans } from "next/font/google";
 import { GoogleAnalytics } from '@next/third-parties/google';
-import Script from "next/script";
 import { Navbar, Footer } from "@/components/layout";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { ReactQueryProvider } from "@/components/providers/react-query-provider";
@@ -70,14 +69,6 @@ const jsonLd = {
       {
           "@type": "WebPage",
           "name": "Instagram Video Downloader - iGram Saver",
-          "speakable": {
-              "@type": "SpeakableSpecification",
-              "xpath": [
-                  "/html/head/title",
-                  "/html/head/meta[@name='description']/@content",
-                  "/html/body/main//div[1]/h1"
-              ]
-          },
           "inLanguage": "en",
           "description": "iGramSaver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.",
           "url": "https://igramsaver.io"
@@ -150,11 +141,6 @@ export default function RootLayout({
           "overflow-x-hidden bg-background font-sans antialiased"
         )}
       >
-        <Script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2008420195999107`}
-          crossOrigin="anonymous"
-        />
         <section>
       {/* Add JSON-LD to your page */}
       <script
