@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { DM_Sans as FontSans } from "next/font/google";
+import { Poppins as FontSans } from "next/font/google";
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { Navbar, Footer } from "@/components/layout";
 import Script from "next/script";
@@ -11,6 +11,7 @@ import "./globals.css";
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
+  weight: ['400', '500', '600', '700', '800'],
 });
 
 export const metadata: Metadata = {

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 const TermsOfServicePage = () => {
   return (
     <div className="my-4 flex flex-col rounded-lg border p-8">
-      <h1 className="mb-4 text-2xl font-bold">Terms of Service</h1>
+      <h1 className="mb-4 text-2xl home-h1">Terms of Service</h1>
       <section className="terms-privacy">
 <p>Welcome to iGram Saver! These terms and conditions outline the rules and regulations for the use of iGram Saver's Website, located at <Link href="/">https://igramsaver.io</Link>.</p>
 

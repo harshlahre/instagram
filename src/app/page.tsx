@@ -12,7 +12,7 @@ export default function HomePage() {
         dataAdSlot="8779273451"
      />
      </div>
-      <h1 className="text-balance mb-8 text-center text-4xl font-extrabold">
+      <h1 className="text-balance mb-8 text-center text-4xl home-h1">
         Instagram Video Downloader
       </h1>
       <p className="desc">Download Instagram Videos, Reels and IGTV</p>
@@ -62,7 +62,7 @@ export default function HomePage() {
     <li>
         <div>
             <h3>Video Downloader</h3>
-            <p>First of all, iGram Saver is all about downloading videos from Instagram. It can download multiple types of videos, not only from singulars but also from carousel sets. Remember that some people mark their videos as private and those can't be downloaded, because we respect every user's privacy.</p>
+            <p>First of all, iGram Saver is all about downloading videos from Instagram. It can download multiple types of videos, not only from singulars but also from carousel sets. Remember that some people mark their videos as private and those can't be downloaded.</p>
         </div>
             <Image src="/images/features/video-downloader.webp" loading="lazy" alt="Instagram Video Downloader" width="328" height="250"/>
     </li>

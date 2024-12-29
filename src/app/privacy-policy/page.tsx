@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 const PrivacyPolicyPage = () => {
   return (
     <div className="my-4 flex flex-col rounded-lg border p-8">
-      <h1 className="mb-4 text-2xl font-bold">Privacy Policy</h1>
+      <h1 className="mb-4 text-2xl home-h1">Privacy Policy</h1>
      <section className="terms-privacy">
       <p>At iGram Saver, accessible from <Link href="/">https://igramsaver.io</Link>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by iGram Saver and how we use it.</p>
 <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
