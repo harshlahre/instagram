@@ -165,7 +165,7 @@ export default function RootLayout({
         >
           <ReactQueryProvider>
             <Navbar />
-            <main className="relative h-[calc(100vh-6rem)] overflow-y-auto">
+            <main className="relative overflow-y-auto">
               {children}
             </main>
             <Footer />
