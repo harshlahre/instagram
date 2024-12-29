@@ -5,11 +5,10 @@ import Link from "next/link";
 import { MobileNav } from "./mobile-nav";
 import { ThemeToggle } from "./theme-toggle";
 import { cn } from "@/lib/utils";
-import AdBanner from "./AdBanner";
 
 export function Navbar() {
   return (
-    <div><header className="h-fit w-full">
+    <header className="h-fit w-full">
       <nav
         className={cn(
           "z-50",
@@ -36,14 +35,6 @@ export function Navbar() {
         </div>
       </nav>
     </header>
-    <div className="pisco">
-        <AdBanner
-        dataAdFormat="auto"
-        dataFullWidthResponsive={true}
-        dataAdSlot="8779273451"
-     />
-     </div>
-    </div>
   );
 }
 

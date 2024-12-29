@@ -1,9 +1,17 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
 import  Image  from "next/image";
+import AdBanner from "@/components/AdBanner";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col py-8">
+        <div className="pisco">
+        <AdBanner
+        dataAdFormat="auto"
+        dataFullWidthResponsive={true}
+        dataAdSlot="8779273451"
+     />
+     </div>
       <h1 className="text-balance mb-8 text-center text-4xl font-extrabold">
         Instagram Video Downloader
       </h1>
@@ -11,16 +19,7 @@ export default function HomePage() {
       <section className="flex flex-col items-center justify-center gap-4">
         <InstagramVideoForm />
       </section>
-      <section className="section-text">
-        <div className="section-text_card">
-          <Image src="/images/main-image.webp" priority alt="Instagram Reels Download" width="289" height="220"/>
-        <div className="section-text_content">
-            <h2>Instagram Videos and Reels Downloader</h2>
-            <p>iGram Saver is a free online tool that helps you to download instagram videos & reels at HD quality. You can download unlimited Instagram videos at no cost and without watermark.</p>
-        </div>
-       </div>
-     </section>
-
+      
 <section className="article">
 <h2 id="download1">How to Download Instagram Videos?</h2>
 <ul className="down-steps">
