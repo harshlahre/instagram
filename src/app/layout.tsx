@@ -5,7 +5,6 @@ import Script from "next/script";
 import { Navbar, Footer } from "@/components/layout";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { ReactQueryProvider } from "@/components/providers/react-query-provider";
-import AdBanner from "@/components/AdBanner";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 
@@ -173,13 +172,6 @@ export default function RootLayout({
         >
           <ReactQueryProvider>
             <Navbar />
-            <div className="pisco">
-        <AdBanner
-        dataAdFormat="auto"
-        dataFullWidthResponsive={true}
-        dataAdSlot="8779273451"
-     />
-     </div>
             <main className="relative h-[calc(100vh-6rem)] overflow-y-auto px-2 sm:px-4">
               {children}
             </main>
