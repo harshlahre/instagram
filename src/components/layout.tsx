@@ -2,15 +2,12 @@
 
 import React from "react";
 import Link from "next/link";
-
 import { MobileNav } from "./mobile-nav";
 import { ThemeToggle } from "./theme-toggle";
-
 import { cn } from "@/lib/utils";
 
 export function Navbar() {
   return (
-    <div>
     <header className="h-fit w-full">
       <nav
         className={cn(
@@ -37,9 +34,7 @@ export function Navbar() {
           <ThemeToggle />
         </div>
       </nav>
-      
     </header>
-     </div>
   );
 }
 

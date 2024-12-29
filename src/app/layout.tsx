@@ -1,26 +1,17 @@
 import { Metadata } from "next";
 import { DM_Sans as FontSans } from "next/font/google";
-import type { Viewport } from 'next';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import Script from "next/script";
-
 import { Navbar, Footer } from "@/components/layout";
-
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { ReactQueryProvider } from "@/components/providers/react-query-provider";
-
 import { cn } from "@/lib/utils";
-
 import "./globals.css";
 
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
-
-export const viewport: Viewport = {
-  themeColor: '#4285f4',
-}
 
 export const metadata: Metadata = {
   title: "Instagram Video Downloader - iGram Saver",

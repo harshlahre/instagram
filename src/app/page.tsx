@@ -1,9 +1,17 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
-import  Image  from "next/image"
+import  Image  from "next/image";
+import AdBanner from "@/components/AdBanner";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col py-8">
+        <div className="pisco">
+    <AdBanner
+        dataAdFormat="auto"
+        dataFullWidthResponsive={true}
+        dataAdSlot="8779273451"
+     />
+     </div>
       <h1 className="text-balance mb-8 text-center text-4xl font-extrabold">
         Instagram Video Downloader
       </h1>
