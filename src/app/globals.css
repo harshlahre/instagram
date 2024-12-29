@@ -423,3 +423,6 @@ a:hover {
 .py-8 {
   padding-top: 0;
 }
+.overflow-y-auto {
+  overflow-x: hidden;
+}
