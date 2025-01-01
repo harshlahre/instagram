@@ -11,6 +11,9 @@ export default function HomePage() {
         dataFullWidthResponsive={true}
         dataAdSlot="8779273451"
      />
+     <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+     </script>
      </div>
       <h1 className="text-balance mb-8 text-center text-4xl home-h1">
         Instagram Video Downloader
