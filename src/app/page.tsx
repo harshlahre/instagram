@@ -1,6 +1,7 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
 import  Image  from "next/image";
 import AdBanner from "@/components/AdBanner";
+import Script from "next/script";
 
 export default function HomePage() {
   return (
@@ -11,9 +12,9 @@ export default function HomePage() {
         dataFullWidthResponsive={true}
         dataAdSlot="8779273451"
      />
-     <script>
+     <Script>
      (adsbygoogle = window.adsbygoogle || []).push({});
-     </script>
+     </Script>
      </div>
       <h1 className="text-balance mb-8 text-center text-4xl home-h1">
         Instagram Video Downloader
