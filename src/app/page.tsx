@@ -12,7 +12,7 @@ export default function HomePage() {
         dataFullWidthResponsive={true}
         dataAdSlot="8779273451"
      />
-     <Script>
+     <Script id="my-script">
      (adsbygoogle = window.adsbygoogle || []).push({});
      </Script>
      </div>
