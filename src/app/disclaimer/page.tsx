@@ -39,7 +39,7 @@ The following definitions shall have the same meaning regardless of whether they
 <li><strong>Website</strong> refers to iGram Saver, accessible from <Link href="/">https://igramsaver.io</Link></li>
 </ul>
 <h2>Disclaimer</h2>
-<p>This website (igramsaver.io) is not affiliated with Meta or Instagram in any way. Also, this website does not violate any policy or guideline of Instagram or Meta. The website or the owner is not liable for any damage caused to any user.</p>
+<noindex><p>This website (igramsaver.io) is not affiliated with Meta or Instagram in any way. Also, this website does not violate any policy or guideline of Instagram or Meta, we don't host instagram videos on our website. The website or the owner is not liable for any damage caused to any user.</p></noindex>
 <p>The information contained on the Service is for general information purposes only.</p>
 <p>The Company assumes no responsibility for errors or omissions in the contents of the Service.</p>
 <p>In no event shall the Company be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. The Company reserves the right to make additions, deletions, or modifications to the contents on the Service at any time without prior notice. This Disclaimer has been created with the help of the <a href="https://www.freeprivacypolicy.com/free-disclaimer-generator/" rel="nofollow noopener noreferrer" target="_blank">Free Disclaimer Generator</a>.</p>

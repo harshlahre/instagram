@@ -21,7 +21,7 @@ export default function HomePage() {
       </section>
       <section className="section-text">
         <div className="section-text_card">
-          <Image src="/images/main-image.webp" priority alt="Instagram Reels Download" width="289" height="220"/>
+        <div className="section-text-img">iGramSaver.io</div>
         <div className="section-text_content">
             <h2>Instagram Videos and Reels Downloader</h2>
             <p>iGram Saver is a free online tool that helps you to download instagram videos & reels at HD quality. You can download unlimited Instagram videos at no cost and without watermark.</p>
@@ -64,21 +64,21 @@ export default function HomePage() {
             <h3>Video Downloader</h3>
             <p>First of all, iGram Saver is all about downloading videos from Instagram. It can download multiple types of videos, not only from singulars but also from carousel sets. Remember that some people mark their videos as private and those can't be downloaded.</p>
         </div>
-            <Image src="/images/features/video-downloader.webp" loading="lazy" alt="Instagram Video Downloader" width="328" height="250"/>
+            <h2>Download Videos</h2>
     </li>
     <li>
         <div>
             <h3>Reels Downloader</h3>
             <p>You know, popular video content platforms are switching from long and boring videos to short and zestful videos, thus Instagram introduced Reels. iGram Saver works best when you download any Reels from it, and it'll serve the video to you in its original quality.</p>
         </div>
-            <Image src="/images/features/reels-downloader.webp" loading="lazy" alt="Instagram Reels Downloader" width="328" height="250"/>
+        <h2>Download Reels</h2>
     </li>
     <li>
         <div>
             <h3>IGTV Downloader</h3>
             <p>We all know that IGTV was retired by Instagram's parent company, Meta, in 2022, but if you have an old IGTV video URL, it will still work. You just need to put the IGTV video URL on the box and click on the 'Download' button and your video will be downloaded in seconds.</p>
         </div>
-            <Image src="/images/features/igtv-downloader.webp" loading="lazy" alt="IGTV Downloader" width="328" height="250"/>
+        <h2>Download IGTV</h2>
     </li>
 </ul>
 </div>
@@ -147,7 +147,7 @@ export default function HomePage() {
 
 
 </section>
-      <p className="disclaimer">*We are not affiliated with Instagram or Meta in any way. We do not host Instagram videos on our website, all the content rights belogs to their respective owners.</p>
+ <noindex><p className="disclaimer">*We are not affiliated with Instagram or Meta in any way. We do not host Instagram videos on our website, all the content rights belogs to their respective owners.</p></noindex>
     </div>
     
   );
