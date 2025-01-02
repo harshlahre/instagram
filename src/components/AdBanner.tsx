@@ -23,14 +23,19 @@ const AdBanner = ({
   }, []);
 
   return (
-    <ins
-      className="adsbygoogle"
-      style={{ display: "block" }}
-      data-ad-client="ca-pub-2008420195999107"
-      data-ad-slot={dataAdSlot}
-      data-ad-format={dataAdFormat}
-      data-full-width-responsive={dataFullWidthResponsive.toString()}
-    ></ins>
+    <div>
+       <ins
+         className="adsbygoogle"
+         style={{ display: "block", textAlign: "center" }}
+         data-ad-client="ca-pub-2008420195999107"
+         data-ad-slot={dataAdSlot}
+         data-ad-format={dataAdFormat}
+         data-full-width-responsive={dataFullWidthResponsive.toString()}
+       ></ins>
+       <script>
+        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+      </script>
+    </div>
   );
 };
 
