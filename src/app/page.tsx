@@ -5,11 +5,7 @@ import AdBanner from "@/components/AdBanner";
 export default function HomePage() {
   return (
     <div className="flex flex-col py-8">
-        <AdBanner
-            dataAdFormat="auto"
-            dataFullWidthResponsive={true}
-            dataAdSlot="8779273451"
-        />
+        <div className="pisco"><AdBanner/></div>
       <h1 className="text-balance mb-8 text-center text-4xl home-h1">
         Instagram Video Downloader
       </h1>

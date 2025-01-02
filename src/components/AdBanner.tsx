@@ -2,40 +2,27 @@
 
 import React, { useEffect } from "react";
 
-type AdBannerTypes = {
-  dataAdSlot: string;
-  dataAdFormat: string;
-  dataFullWidthResponsive: boolean;
-};
-
-const AdBanner = ({
-  dataAdSlot,
-  dataAdFormat,
-  dataFullWidthResponsive,
-}: AdBannerTypes) => {
+const AdBanner = () => {
   useEffect(() => {
-    var ads = document.getElementsByClassName('adsbygoogle').length;
-    for (var i = 0; i < ads; i++) {
-      try {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
-      } catch (e) {}
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense script error:", e);
     }
   }, []);
 
   return (
-    <div>
-       <ins
-         className="adsbygoogle"
-         style={{ display: "block", textAlign: "center" }}
-         data-ad-client="ca-pub-2008420195999107"
-         data-ad-slot={dataAdSlot}
-         data-ad-format={dataAdFormat}
-         data-full-width-responsive={dataFullWidthResponsive.toString()}
-       ></ins>
-       <script>
+    <>
+      <ins
+        className="adsbygoogle"
+        style={{ display: "inline-block", width: "300px", height: "250px" }}
+        data-ad-client="ca-pub-2008420195999107"
+        data-ad-slot="3897612512"
+      ></ins>
+      <script>
         {`(adsbygoogle = window.adsbygoogle || []).push({});`}
       </script>
-    </div>
+    </>
   );
 };
 
