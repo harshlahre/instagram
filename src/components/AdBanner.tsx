@@ -1,31 +1,36 @@
 "use client";
 
-import { useEffect } from "react";
-import Script from "next/script";
+import React, { useEffect } from "react";
 
-const AdBanner = () => {
+type AdBannerTypes = {
+  dataAdSlot: string;
+  dataAdFormat: string;
+  dataFullWidthResponsive: boolean;
+};
+
+const AdBanner = ({
+  dataAdSlot,
+  dataAdFormat,
+  dataFullWidthResponsive,
+}: AdBannerTypes) => {
   useEffect(() => {
-    try {
-      (window.adsbygoogle = window.adsbygoogle || []).push({});
-    } catch (e) {
-      console.error("AdSense loading error:", e);
+    var ads = document.getElementsByClassName('adsbygoogle').length;
+    for (var i = 0; i < ads; i++) {
+      try {
+        (window.adsbygoogle = window.adsbygoogle || []).push({});
+      } catch (e) {}
     }
   }, []);
 
   return (
-    <div>
     <ins
       className="adsbygoogle"
-      style={{ display: "block", textAlign: "center" }}
+      style={{ display: "block" }}
       data-ad-client="ca-pub-2008420195999107"
-      data-ad-slot="8779273451"
-      data-ad-format="auto"
-      data-full-width-responsive="true"
+      data-ad-slot={dataAdSlot}
+      data-ad-format={dataAdFormat}
+      data-full-width-responsive={dataFullWidthResponsive.toString()}
     ></ins>
-    <script>
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </script>
-      </div>
   );
 };
 
