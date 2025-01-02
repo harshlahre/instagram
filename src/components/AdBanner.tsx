@@ -1,36 +1,37 @@
 "use client";
 
-import React, { useEffect } from "react";
+import { useEffect } from "react";
+import Script from "next/script";
 
-type AdBannerTypes = {
-  dataAdSlot: string;
-  dataAdFormat: string;
-  dataFullWidthResponsive: boolean;
-};
-
-const AdBanner = ({
-  dataAdSlot,
-  dataAdFormat,
-  dataFullWidthResponsive,
-}: AdBannerTypes) => {
+const AdBanner = () => {
   useEffect(() => {
-    var ads = document.getElementsByClassName('adsbygoogle').length;
-    for (var i = 0; i < ads; i++) {
-      try {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
-      } catch (e) {}
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense loading error:", e);
     }
   }, []);
 
   return (
+    <div>
+      <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2008420195999107`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
     <ins
       className="adsbygoogle"
-      style={{ display: "block" }}
+      style={{ display: "block", textAlign: "center" }}
       data-ad-client="ca-pub-2008420195999107"
-      data-ad-slot={dataAdSlot}
-      data-ad-format={dataAdFormat}
-      data-full-width-responsive={dataFullWidthResponsive.toString()}
+      data-ad-slot="8779273451"
+      data-ad-format="auto"
+      data-full-width-responsive="true"
     ></ins>
+    <script>
+        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
+      </script>
+      </div>
   );
 };
 
