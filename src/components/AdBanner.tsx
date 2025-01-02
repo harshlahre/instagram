@@ -5,26 +5,21 @@ import React, { useEffect } from "react";
 const AdBanner = () => {
   useEffect(() => {
     try {
-      ((window as any).adsbygoogle = (window as any).adsbygoogle || []).push(
-        {}
-      );
-    } catch (error: any) {
-      console.log(error.message);
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense script error:", e);
     }
   }, []);
 
   return (
-    <>
       <ins
         className="adsbygoogle"
-        style={{ display: "inline-block", width: "300px", height: "250px" }}
+        style={{ display: "block", textAlign: "center" }}
         data-ad-client="ca-pub-2008420195999107"
         data-ad-slot="3897612512"
+        data-ad-format="auto"
+        data-full-width-responsive="true"
       ></ins>
-      <script>
-        {`(adsbygoogle = window.adsbygoogle || []).push({});`}
-      </script>
-    </>
   );
 };
 
