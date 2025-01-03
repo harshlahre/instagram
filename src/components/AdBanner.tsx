@@ -12,6 +12,12 @@ const AdBanner = () => {
   }, []);
 
   return (
+    <>
+      <script
+       async
+       src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2008420195999107`}
+       crossOrigin="anonymous">
+      </script>
       <ins
         className="adsbygoogle"
         style={{ display: "block", textAlign: "center" }}
@@ -20,6 +26,7 @@ const AdBanner = () => {
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
+    </>
   );
 };
 
