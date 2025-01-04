@@ -180,7 +180,7 @@ export default function RootLayout({
             <Footer />
           </ReactQueryProvider>
         </ThemeProvider>
-  
+        <GoogleAnalytics gaId="G-8YPRPJ0BTG" />  
       </body>
     </html>
   );
