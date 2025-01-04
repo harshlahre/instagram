@@ -1,13 +1,11 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
-import  Image  from "next/image";
-import AdBanner from "@/components/AdBanner";
+import  Image  from "next/image"
 
 export default function HomePage() {
   return (
     <div className="flex flex-col py-8">
-         <div className="pisco"><AdBanner/></div>
-      <h1 className="text-balance mb-8 text-center text-4xl home-h1">
-        Instagram Video Downloader
+      <h1 className="text-balance mb-8 text-center text-4xl font-extrabold">
+        Instagram Reels Video Downloader
       </h1>
       <p className="desc">Download Instagram Videos, Reels and IGTV</p>
       <section className="flex flex-col items-center justify-center gap-4">
@@ -15,14 +13,14 @@ export default function HomePage() {
       </section>
       <section className="section-text">
         <div className="section-text_card">
-        <div className="section-text-img">iGramSaver.io</div>
+          <Image src="/images/main-image.webp" priority alt="Instagram Reels Download" width="289" height="220"/>
         <div className="section-text_content">
             <h2>Instagram Videos and Reels Downloader</h2>
             <p>iGram Saver is a free online tool that helps you to download instagram videos & reels at HD quality. You can download unlimited Instagram videos at no cost and without watermark.</p>
         </div>
        </div>
      </section>
-      
+
 <section className="article">
 <h2 id="download1">How to Download Instagram Videos?</h2>
 <ul className="down-steps">
@@ -56,23 +54,23 @@ export default function HomePage() {
     <li>
         <div>
             <h3>Video Downloader</h3>
-            <p>First of all, iGram Saver is all about downloading videos from Instagram. It can download multiple types of videos, not only from singulars but also from carousel sets. Remember that some people mark their videos as private and those can't be downloaded.</p>
+            <p>First of all, iGram Saver is all about downloading videos from Instagram. It can download multiple types of videos, not only from singulars but also from carousel sets. Remember that some people mark their videos as private and those can't be downloaded, because we respect every user's privacy.</p>
         </div>
-            <h2>Download Videos</h2>
+            <Image src="/images/features/video-downloader.webp" loading="lazy" alt="Instagram Video Downloader" width="328" height="250"/>
     </li>
     <li>
         <div>
             <h3>Reels Downloader</h3>
             <p>You know, popular video content platforms are switching from long and boring videos to short and zestful videos, thus Instagram introduced Reels. iGram Saver works best when you download any Reels from it, and it'll serve the video to you in its original quality.</p>
         </div>
-        <h2>Download Reels</h2>
+            <Image src="/images/features/reels-downloader.webp" loading="lazy" alt="Instagram Reels Downloader" width="328" height="250"/>
     </li>
     <li>
         <div>
             <h3>IGTV Downloader</h3>
             <p>We all know that IGTV was retired by Instagram's parent company, Meta, in 2022, but if you have an old IGTV video URL, it will still work. You just need to put the IGTV video URL on the box and click on the 'Download' button and your video will be downloaded in seconds.</p>
         </div>
-        <h2>Download IGTV</h2>
+            <Image src="/images/features/igtv-downloader.webp" loading="lazy" alt="IGTV Downloader" width="328" height="250"/>
     </li>
 </ul>
 </div>
@@ -141,7 +139,7 @@ export default function HomePage() {
 
 
 </section>
- <noindex><p className="disclaimer">*We are not affiliated with Instagram or Meta in any way. We do not host Instagram videos on our website, all the content rights belogs to their respective owners.</p></noindex>
+      <p className="disclaimer">*We are not affiliated with Instagram or Meta in any way. We do not host Instagram videos on our website, all the content rights belogs to their respective owners.</p>
     </div>
     
   );

@@ -1,11 +1,14 @@
 import { Metadata } from "next";
 import { DM_Sans as FontSans } from "next/font/google";
-import { GoogleAnalytics } from '@next/third-parties/google';
+import type { Viewport } from 'next';
+
 import { Navbar, Footer } from "@/components/layout";
-import { Viewport } from "next";
+
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { ReactQueryProvider } from "@/components/providers/react-query-provider";
+
 import { cn } from "@/lib/utils";
+
 import "./globals.css";
 
 const fontSans = FontSans({
@@ -18,7 +21,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: "Instagram Video Downloader - iGram Saver",
+  title: "Instagram Reels Video Downloader - iGram Saver",
   description: "iGramSaver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.",
   applicationName: 'iGram Saver',
   category: 'tools and utilities',
@@ -45,7 +48,7 @@ export const metadata: Metadata = {
     url: 'https://igramsaver.io',
     locale: 'en-US',
     type: 'website',
-    siteName: 'iGram Saver',
+    siteName: 'iGramSaver.iO',
     images: [
       {
         url: 'http://igramsaver.io/images/main-image.webp',
@@ -74,6 +77,14 @@ const jsonLd = {
       {
           "@type": "WebPage",
           "name": "Instagram Video Downloader - iGram Saver",
+          "speakable": {
+              "@type": "SpeakableSpecification",
+              "xpath": [
+                  "/html/head/title",
+                  "/html/head/meta[@name='description']/@content",
+                  "/html/body/main//div[1]/h1"
+              ]
+          },
           "inLanguage": "en",
           "description": "iGramSaver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.",
           "url": "https://igramsaver.io"
@@ -169,7 +180,7 @@ export default function RootLayout({
             <Footer />
           </ReactQueryProvider>
         </ThemeProvider>
-      <GoogleAnalytics gaId="G-8YPRPJ0BTG" />  
+  
       </body>
     </html>
   );
