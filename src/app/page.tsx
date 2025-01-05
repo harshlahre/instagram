@@ -7,9 +7,9 @@ export default function HomePage() {
     <div className="flex flex-col py-8">
         <div className="pisco"><AdBanner /></div>
       <h1 className="text-balance mb-8 text-center text-4xl font-extrabold">
-        Instagram Video Downloader
+        Instagram Video Saver
       </h1>
-      <p className="desc">Download Instagram Videos, Reels and IGTV</p>
+      <p className="desc">Save Instagram Videos, Reels and IGTV to gallery</p>
       <section className="flex flex-col items-center justify-center gap-4">
         <InstagramVideoForm />
       </section>
@@ -17,7 +17,7 @@ export default function HomePage() {
         <div className="section-text_card">
           <Image src="/images/main-image.webp" priority alt="Instagram Reels Download" width="289" height="220"/>
         <div className="section-text_content">
-            <h2>Instagram Videos and Reels Downloader</h2>
+            <h2>Instagram Video Saver & Reels Downloader</h2>
             <p>iGram Saver is a free online tool that helps you to download instagram videos & reels at HD quality. You can download unlimited Instagram videos at no cost and without watermark.</p>
         </div>
        </div>

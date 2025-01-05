@@ -21,8 +21,8 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: "Instagram Video Downloader - iGram Saver",
-  description: "iGramSaver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.",
+  title: "Instagram Video Saver & Reels Downloader - iGramsaver.io",
+  description: "iGram Saver is an Instagram Downloader tool to download instagram video, reels, and IGTV in 4k HD quality directly to your mobile gallery, tablet or pc.",
   applicationName: 'iGram Saver',
   category: 'tools and utilities',
   alternates: {
@@ -43,18 +43,18 @@ export const metadata: Metadata = {
     statusBarStyle: 'black-translucent',
   },
   openGraph: {
-    title: 'Instagram Video Downloader - iGram Saver',
-    description: 'iGramSaver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.',
+    title: 'Instagram Video Saver & Reels Downloader - iGramsaver.io',
+    description: 'iGram Saver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.',
     url: 'https://igramsaver.io',
     locale: 'en-US',
     type: 'website',
-    siteName: 'iGramSaver.iO',
+    siteName: 'iGramsaver',
     images: [
       {
         url: 'http://igramsaver.io/images/main-image.webp',
         width: 500,
         height: 420,
-        alt: 'Instagram Video Downloader',
+        alt: 'Instagram Video Saver',
       },
     ],
   }
@@ -66,33 +66,28 @@ const jsonLd = {
           "@type": "WebSite",
           "name": "iGram Saver",
           "alternateName": [
-              "Instagram Video Downloader",
+              "Instagram Video Saver",
               "iGramSaver",
-              "IG Saver",
-              "ig video downloader",
-              "Insta Video Download"
+              "igram io",
+              "igram world",
+              "Instagram Reels Downloader"
           ],
           "url": "https://igramsaver.io"
       },
       {
           "@type": "WebPage",
-          "name": "Instagram Video Downloader - iGram Saver",
+          "name": "Instagram Video Saver & Reels Downloader - iGramsaver.io",
           "speakable": {
               "@type": "SpeakableSpecification",
-              "xpath": [
-                  "/html/head/title",
-                  "/html/head/meta[@name='description']/@content",
-                  "/html/body/main//div[1]/h1"
-              ]
           },
           "inLanguage": "en",
-          "description": "iGramSaver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.",
+          "description": "iGram Saver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.",
           "url": "https://igramsaver.io"
       },
       {
           "@type": "Organization",
           "name": "iGram Saver",
-          "alternateName": "Instagram video downloader",
+          "alternateName": "Instagram video saver",
           "url": "https://igramsaver.io",
           "email": "support@igramsaver.io",
           "logo": "https://igramsaver.io/images/logo.png"
@@ -101,11 +96,11 @@ const jsonLd = {
           "@type": "WebApplication",
           "name": "iGram Saver",
           "alternateName": [
-              "Instagram Video Downloader",
+              "Instagram Video Saver",
               "iGram Saver",
-              "IG Saver",
-              "ig video downloader",
-              "Insta Video Download"
+              "igram",
+              "igram world",
+              "Instagram Reels Downloader"
           ],
           "url": "https://igramsaver.io",
           "image": "https://igramsaver.io/images/logo.png",
@@ -119,8 +114,8 @@ const jsonLd = {
           "contentRating": "Everyone",
           "aggregateRating": {
               "@type": "AggregateRating",
-              "ratingValue": "4.84",
-              "reviewCount": "1655"
+              "ratingValue": "4.83",
+              "reviewCount": "1873"
           },
           "offers": {
               "@type": "Offer",
@@ -135,7 +130,7 @@ const jsonLd = {
           "position": 1,
           "item": {
               "@id": "https://igramsaver.io",
-              "name": "Instagram Video Downloader - iGram Saver"
+              "name": "Instagram Video Saver & Reels Downloader - iGramsaver.io"
             }
         }
     ]
