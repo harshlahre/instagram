@@ -30,6 +30,9 @@ export function Navbar() {
             <Link href="/disclaimer" className="hover:underline">
               Disclaimer
             </Link>
+            <Link href="/hi" className="hover:underline">
+              Hindi
+            </Link>
           </div>
           <ThemeToggle />
         </div>
@@ -43,7 +46,7 @@ export function Footer() {
     <footer className="h-8 w-full bg-background/50 text-center text-secondary-foreground">
       <div className="flex items-center justify-between border-t border-input px-4 py-2">
         <div aria-label="Disclaimer">
-          <p>© 2024 <Link href="/">iGram Saver</Link></p>
+          <p>© 2025 iGram Saver</p>
         </div>
         <div className="flex items-center gap-1 text-sm">
           <Link href="/terms-of-service" className="hover:underline">

@@ -26,7 +26,17 @@ export const metadata: Metadata = {
   applicationName: 'iGram Saver',
   category: 'tools and utilities',
   alternates: {
-    canonical: 'https://igramsaver.io'
+    canonical: 'https://igramsaver.io',
+    languages: {
+      'x-default': 'https://igramsaver.io',
+      'en': 'https://igramsaver.io',
+      'hi': 'https://igramsaver.io/hi'
+    }
+  },
+  robots: {
+    googleBot: {
+      notranslate: true
+    }
   },
   manifest: "/site.webmanifest",
   icons: {
@@ -44,7 +54,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Instagram Video Saver & Reels Downloader - iGramsaver.io',
-    description: 'iGram Saver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.',
+    description: 'iGram Saver is an Instagram Downloader tool to download instagram video, reels, and IGTV in 4k HD quality directly to your mobile gallery, tablet or pc.',
     url: 'https://igramsaver.io',
     locale: 'en-US',
     type: 'website',
@@ -59,6 +69,7 @@ export const metadata: Metadata = {
     ],
   }
 };
+
 const jsonLd = {
   "@context": "http://schema.org",
   "@graph": [

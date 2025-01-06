@@ -9,6 +9,10 @@ export const siteLinks: NavLink[] = [
     href: "/",
   },
   {
+    name: "Hindi Version",
+    href: "/hi",
+  },
+  {
     name: "Disclaimer",
     href: "/disclaimer",
   },
