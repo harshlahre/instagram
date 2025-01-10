@@ -5,7 +5,6 @@ import Link from "next/link";
 import { MobileNav } from "./mobile-nav";
 import { ThemeToggle } from "./theme-toggle";
 import { cn } from "@/lib/utils";
-import DropMenu from "./DropMenu";
 
 export function Navbar() {
   return (
@@ -39,7 +38,6 @@ export function Navbar() {
            </div>
           </div>
           <ThemeToggle />
-          <DropMenu />
         </div>
       </nav>
     </header>
