@@ -30,7 +30,7 @@ const DisclaimerPage = () => {
         <div className="my-4 flex flex-col rounded-lg border p-8">
             <h1 className="mb-4 text-2xl home-h1">Disclaimer</h1>
             <section className="terms-privacy">
-            <p style={{fontSize:15,color:"grey",}}>Last updated: 05 January 2025</p><h2>Interpretation and Definitions</h2><h4>Interpretation</h4><p>The words of which the initial letter is capitalized have meanings defined under the following conditions.
+            <p style={{fontSize:15,color:"grey",}}>Last updated: 12 December 2024</p><h2>Interpretation and Definitions</h2><h4>Interpretation</h4><p>The words of which the initial letter is capitalized have meanings defined under the following conditions.
 The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.</p><h4>Definitions</h4><p>For the purposes of this Disclaimer:</p>
 <ul>
 <li><strong>Company</strong> (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Disclaimer) refers to iGram Saver</li>

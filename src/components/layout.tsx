@@ -33,9 +33,6 @@ export function Navbar() {
             <Link href="/hi" className="hover:underline">
               Hindi
             </Link>
-            <div className="min-h-screen flex items-center justify-center">
-              
-           </div>
           </div>
           <ThemeToggle />
         </div>
