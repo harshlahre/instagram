@@ -3,13 +3,12 @@ import { DM_Sans as FontSans } from "next/font/google";
 import type { Viewport } from 'next';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { Navbar, Footer } from "@/components/layout";
-
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { ReactQueryProvider } from "@/components/providers/react-query-provider";
-
+import AdSense from "@/components/AdSense";
 import { cn } from "@/lib/utils";
-
 import "./globals.css";
+
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -30,7 +29,8 @@ export const metadata: Metadata = {
     languages: {
       'x-default': 'https://igramsaver.io',
       'en': 'https://igramsaver.io',
-      'hi': 'https://igramsaver.io/hi'
+      'hi': 'https://igramsaver.io/hi',
+      'pt': 'https://igramsaver.io/pt'
     }
   },
   robots: {
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Instagram Video Saver & Reels Downloader - iGramsaver.io',
-    description: 'iGram Saver is an Instagram Downloader tool to download instagram video, reels, and IGTV in 4k HD quality directly to your mobile gallery, tablet or pc.',
+    description: "iGram Saver is an Instagram Downloader tool to download instagram video, reels, and IGTV in 4k HD quality directly to your mobile gallery, tablet or pc.",
     url: 'https://igramsaver.io',
     locale: 'en-US',
     type: 'website',
@@ -150,19 +150,17 @@ const jsonLd = {
 }
 
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({children,}: {children: React.ReactNode;}) {
+
   return (
-    <html lang="en-US" suppressHydrationWarning>
+    <html lang='en-US' suppressHydrationWarning>
       <body
         className={cn(
           fontSans.variable,
           "overflow-x-hidden bg-background font-sans antialiased"
         )}
       >
+      <AdSense pId="ca-pub-2008420195999107"/>
         <section>
       {/* Add JSON-LD to your page */}
       <script
@@ -186,7 +184,7 @@ export default function RootLayout({
             <Footer />
           </ReactQueryProvider>
         </ThemeProvider>
-        <GoogleAnalytics gaId="G-8YPRPJ0BTG" />  
+        <GoogleAnalytics gaId="G-8YPRPJ0BTG"/>  
       </body>
     </html>
   );
