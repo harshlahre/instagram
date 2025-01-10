@@ -1,7 +1,6 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
 import  Image  from "next/image"
 import { Metadata } from "next";
-import AdBanner from "@/components/AdBanner";
 
 export const metadata: Metadata = {
     title: "इंस्टाग्राम वीडियो सेवर एवं रील्स डाउनलोडर",
@@ -37,7 +36,6 @@ export const metadata: Metadata = {
   export default function Hindi() {
     return (
       <div className="flex flex-col py-8">
-        <div className="pisco"><AdBanner /></div>
         <h1 className="text-balance mb-8 text-center text-4xl font-extrabold">
         इंस्टाग्राम वीडियो सेवर
         </h1>

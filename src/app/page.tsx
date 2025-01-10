@@ -1,11 +1,9 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
 import  Image  from "next/image"
-import AdBanner from "@/components/AdBanner";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col py-8">
-        <div className="pisco"><AdBanner /></div>
       <h1 className="text-balance mb-8 text-center text-4xl font-extrabold">
         Instagram Video Saver
       </h1>

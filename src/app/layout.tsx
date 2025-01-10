@@ -3,7 +3,7 @@ import { DM_Sans as FontSans } from "next/font/google";
 import type { Viewport } from 'next';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { Navbar, Footer } from "@/components/layout";
-
+import AdSense from "@/components/AdSense";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { ReactQueryProvider } from "@/components/providers/react-query-provider";
 
@@ -163,6 +163,7 @@ export default function RootLayout({
           "overflow-x-hidden bg-background font-sans antialiased"
         )}
       >
+        <AdSense pId="ca-pub-2008420195999107"/>
         <section>
       {/* Add JSON-LD to your page */}
       <script
