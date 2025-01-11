@@ -27,16 +27,6 @@ export const metadata: Metadata = {
   category: 'tools and utilities',
   alternates: {
     canonical: 'https://igramsaver.io',
-    languages: {
-      'x-default': 'https://igramsaver.io',
-      'en': 'https://igramsaver.io',
-      'hi': 'https://igramsaver.io/hi'
-    }
-  },
-  robots: {
-    googleBot: {
-      notranslate: true
-    }
   },
   manifest: "/site.webmanifest",
   icons: {
@@ -163,14 +153,15 @@ export default function RootLayout({
           "overflow-x-hidden bg-background font-sans antialiased"
         )}
       >
+        <AdSense />
         <section>
-      {/* Add JSON-LD to your page */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      {/* ... */}
-    </section>
+         {/* Add JSON-LD to your page */}
+          <script
+           type="application/ld+json"
+           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          />
+          {/* ... */}
+       </section>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -184,10 +175,9 @@ export default function RootLayout({
             </main>
             <Footer />
           </ReactQueryProvider>
-        </ThemeProvider> 
+        </ThemeProvider>
+        <GoogleAnalytics gaId="G-8YPRPJ0BTG" />
       </body>
-      <GoogleAnalytics gaId="G-8YPRPJ0BTG" />
-      <AdSense />
     </html>
   );
 }

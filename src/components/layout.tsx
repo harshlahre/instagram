@@ -30,9 +30,6 @@ export function Navbar() {
             <Link href="/disclaimer" className="hover:underline">
               Disclaimer
             </Link>
-            <Link href="/hi" className="hover:underline">
-              Hindi
-            </Link>
           </div>
           <ThemeToggle />
         </div>
