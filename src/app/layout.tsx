@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { DM_Sans as FontSans } from "next/font/google";
 import type { Viewport } from 'next';
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { Navbar, Footer } from "@/components/layout";
 import AdSense from "@/components/AdSense";
 import { ThemeProvider } from "@/components/providers/theme-provider";
@@ -185,6 +186,7 @@ export default function RootLayout({
           </ReactQueryProvider>
         </ThemeProvider> 
       </body>
+      <GoogleAnalytics gaId="G-8YPRPJ0BTG" />
       <AdSense />
     </html>
   );
