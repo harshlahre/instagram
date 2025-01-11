@@ -1,5 +1,15 @@
+"use client"
+
+import { useEffect } from "react";
 
 const AdSense = () => {
+  useEffect(() => {
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense script error:", e);
+    }
+  }, []);
 
   return (
    <>
