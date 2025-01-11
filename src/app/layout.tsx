@@ -163,7 +163,7 @@ export default function RootLayout({
           "overflow-x-hidden bg-background font-sans antialiased"
         )}
       >
-        <AdSense/>
+        <AdSense />
         <section>
       {/* Add JSON-LD to your page */}
       <script
