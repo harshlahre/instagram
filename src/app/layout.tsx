@@ -1,7 +1,6 @@
 import { Metadata } from "next";
 import { DM_Sans as FontSans } from "next/font/google";
 import type { Viewport } from 'next';
-import { GoogleAnalytics } from '@next/third-parties/google';
 import { Navbar, Footer } from "@/components/layout";
 import AdSense from "@/components/AdSense";
 import { ThemeProvider } from "@/components/providers/theme-provider";
@@ -163,7 +162,6 @@ export default function RootLayout({
           "overflow-x-hidden bg-background font-sans antialiased"
         )}
       >
-        <AdSense />
         <section>
       {/* Add JSON-LD to your page */}
       <script
@@ -172,7 +170,6 @@ export default function RootLayout({
       />
       {/* ... */}
     </section>
-
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -186,9 +183,9 @@ export default function RootLayout({
             </main>
             <Footer />
           </ReactQueryProvider>
-        </ThemeProvider>
-        <GoogleAnalytics gaId="G-8YPRPJ0BTG" />  
+        </ThemeProvider> 
       </body>
+      <AdSense />
     </html>
   );
 }
