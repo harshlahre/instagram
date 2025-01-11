@@ -1,4 +1,3 @@
-import Script from "next/script";
 
 const AdSense = () => {
 
@@ -10,18 +9,18 @@ const AdSense = () => {
         crossOrigin="anonymous">
       </script>
 
-      <Script
+      <script
+        defer
         src={`https://www.googletagmanager.com/gtag/js?id=G-8YPRPJ0BTG`}
-        strategy="afterInteractive"
       />
-      <Script id="google-analytics" strategy="afterInteractive">
+      <script defer id="google-analytics">
       {`
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-8YPRPJ0BTG');
      `}
-      </Script>
+      </script>
    </>
   );
 };
