@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col py-8">
       <h1 className="text-balance mb-8 text-center text-4xl font-extrabold">
-        Instagram Video Saver
+      Instagram Video Downloader
       </h1>
       <p className="desc">Save Instagram Videos, Reels and IGTV to gallery</p>
       <section className="flex flex-col items-center justify-center gap-4">
@@ -15,12 +15,11 @@ export default function HomePage() {
         <div className="section-text_card">
           <Image src="/images/main-image.webp" priority alt="Instagram Reels Download" width="289" height="220"/>
         <div className="section-text_content">
-            <h2>Instagram Video Saver & Reels Downloader</h2>
+            <h2>iGram iO - Instagram Downloader</h2>
             <p>iGram Saver is a free online tool that helps you to download instagram videos & reels at HD quality. You can download unlimited Instagram videos at no cost and without watermark.</p>
         </div>
        </div>
      </section>
-
 <section className="article">
 <h2 id="download1">How to Download Instagram Videos?</h2>
 <ul className="down-steps">
@@ -76,7 +75,7 @@ export default function HomePage() {
 </div>
 
     <div className="why-choose">
-        <h2>Why to Choose iGram Saver IG Video Downloader:</h2>
+        <h2>Why to Choose iGram Saver iO Video Downloader:</h2>
                 <ul>
                     <li>✅ Download any public Instagram video within few clicks.</li>
                     <li>✅ Login to you Instagram account is not required.</li>
@@ -136,8 +135,6 @@ export default function HomePage() {
 <p><strong>Errors you may encounter while downloading Instagram videos</strong></p>
 <p>One of the most common errors you may encounter while downloading any Instagram video with iGram Saver is "The video link for this post is not public." This error occurs when you try to download private Instagram videos, which our tool does not allow.</p>
 </div>
-
-
 </section>
       <p className="disclaimer">*We are not affiliated with Instagram or Meta in any way. We do not host Instagram videos on our website, all the content rights belogs to their respective owners.</p>
     </div>

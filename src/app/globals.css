@@ -164,6 +164,7 @@ a:hover {
   margin: 64px auto 25px auto;
   max-width: 1024px;
   text-align: center;
+  padding: 0 10px;
 }
 .section-text_card {
   align-items: center;
@@ -234,7 +235,7 @@ a:hover {
     grid-template-columns: repeat(3, 1fr);
     list-style: none;
     margin: 0 0 24px 0;
-    padding: 0;
+    padding: 0 10px;
 }
 .down-steps li {
     border-radius: 12px;
@@ -330,7 +331,7 @@ a:hover {
   grid-template-columns: 1fr;
   list-style: none;
   margin: 0;
-  padding: 12px 0 0;
+  padding: 0 10px;
 }
 .section-features_list li {
   align-items: center;
