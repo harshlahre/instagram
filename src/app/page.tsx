@@ -11,7 +11,7 @@ export default function HomePage() {
         <InstagramVideoForm />
       </section>
       <hr/>
-<section className="article">
+
 <h2>Instagram Video Saver & Reels Downloader</h2>
 <p>iGram Saver is a free online tool that helps you to download instagram videos & reels at HD quality. You can download unlimited Instagram videos at no cost and without watermark.</p>
 <h2>Features of iGram Saver</h2>
@@ -55,7 +55,6 @@ export default function HomePage() {
 <p><strong>Errors you may encounter while downloading Instagram videos</strong></p>
 <p>One of the most common errors you may encounter while downloading any Instagram video with iGram Saver is "The video link for this post is not public." This error occurs when you try to download private Instagram videos, which our tool does not allow.</p>
 </div>
-</section>
       <p className="disclaimer">*We are not affiliated with Instagram or Meta in any way. We do not host Instagram videos on our website, all the content rights belogs to their respective owners.</p>
     </div>
 
