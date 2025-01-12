@@ -55,11 +55,9 @@ export default function HomePage() {
 <p><strong>Errors you may encounter while downloading Instagram videos</strong></p>
 <p>One of the most common errors you may encounter while downloading any Instagram video with iGram Saver is "The video link for this post is not public." This error occurs when you try to download private Instagram videos, which our tool does not allow.</p>
 </div>
-
-
 </section>
       <p className="disclaimer">*We are not affiliated with Instagram or Meta in any way. We do not host Instagram videos on our website, all the content rights belogs to their respective owners.</p>
     </div>
-    
+
   );
 }
