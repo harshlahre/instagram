@@ -45,5 +45,3 @@ export async function GET(request: Request) {
     return handleError(error);
   }
 }
-
-export const runtime = 'edge';
