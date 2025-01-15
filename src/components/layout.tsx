@@ -16,8 +16,6 @@ export function Navbar() {
           "w-full items-center border-b bg-accent/20"
         )}
       >
-        
-        
         <MobileNav className="md:hidden" />
         <div className="gs-sitename select-none text-xl md:block">
           iGram Saver
