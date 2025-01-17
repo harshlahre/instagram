@@ -12,7 +12,6 @@ export default function HomePage() {
         <InstagramVideoForm />
       </section>
       <section className="article pt-6">
-
           <Image
             className="center"
             src="/images/main-image.webp"
@@ -29,31 +28,23 @@ export default function HomePage() {
             </p>
 
         <h2 id="download1">How to Download Instagram Videos?</h2>
-        <p>According to the announcement, Apple Intelligence which leverages artificial intelligence (AI) to summon text, photos, and other content will be compatible with the iPhone 15 Pro, iPhone 15 Pro Max, iPad, Mac, and subsequent models that include the M1 processor. Mac PCs may view and interact with the phone’s screen thanks to iPhone Mirroring on MacOS Sequoia. Due to regulatory difficulties brought on by the EU’s Digital Markets Act (DMA), the business said on Friday that three features Phone Mirroring, SharePlay Screen Sharing improvements, and Apple Intelligence will not be made available to consumers in the EU this year.According to the announcement, Apple Intelligence which leverages artificial intelligence (AI) to summon text, photos, and other content will be compatible with the iPhone 15 Pro, iPhone 15 Pro Max, iPad, Mac, and subsequent models that include the M1 processor. Mac PCs may view and interact with the phone’s screen thanks to iPhone Mirroring on MacOS Sequoia. Due to regulatory difficulties brought on by the EU’s Digital Markets Act (DMA), the business said on Friday that three features Phone Mirroring, SharePlay Screen Sharing improvements, and Apple Intelligence will not be made available to consumers in the EU this year.
+        <ol className="list">
+          <li>Open the Instagram app, or website.</li>
+          <li>Go to any video or reels and click on share icon.</li>
+          <li>Now, click on "Copy Link" option.</li>
+          <li>Comeback to our Instagram Downloader and paste the link on the box.</li>
+          <li>A new page will open, where click on the three dot then on the "Download" option.</li>
+        </ol>
 
-“Specifically, we are concerned that the interoperability requirements of the DMA could force us to compromise the integrity of our products in ways that risk user privacy and data security,” according to an email sent by Apple.
+        <h2>Features of iGram Saver</h2>
+        <p>iGram Saver offers various options to download any video content from Instagram. This section provides information about our free exclusive services.</p>
+        <h3>Video Downloader</h3>
+        <p>First of all, iGram Saver is all about downloading videos from Instagram. It can download multiple types of videos, not only from singulars but also from carousel sets. Remember that some people mark their videos as private and those can't be downloaded, because we respect every user's privacy.</p>
+        <h3>Reels Downloader</h3>
+        <p>You know, popular video content platforms are switching from long and boring videos to short and zestful videos, thus Instagram introduced Reels. iGram Saver works best when you download any Reels from it, and it'll serve the video to you in its original quality.</p>
+        <h3>IGTV Downloader</h3>
+        <p>We all know that IGTV was retired by Instagram's parent company, Meta, in 2022, but if you have an old IGTV video URL, it will still work. You just need to put the IGTV video URL on the box and click on the 'Download' button and your video will be downloaded in seconds.</p>
 
-“We are committed to collaborating with the European Commission in an attempt to find a solution that would enable us to deliver these features to our EU customers without compromising their safety.”</p>
-<p>According to the announcement, Apple Intelligence which leverages artificial intelligence (AI) to summon text, photos, and other content will be compatible with the iPhone 15 Pro, iPhone 15 Pro Max, iPad, Mac, and subsequent models that include the M1 processor. Mac PCs may view and interact with the phone’s screen thanks to iPhone Mirroring on MacOS Sequoia. Due to regulatory difficulties brought on by the EU’s Digital Markets Act (DMA), the business said on Friday that three features Phone Mirroring, SharePlay Screen Sharing improvements, and Apple Intelligence will not be made available to consumers in the EU this year.According to the announcement, Apple Intelligence which leverages artificial intelligence (AI) to summon text, photos, and other content will be compatible with the iPhone 15 Pro, iPhone 15 Pro Max, iPad, Mac, and subsequent models that include the M1 processor. Mac PCs may view and interact with the phone’s screen thanks to iPhone Mirroring on MacOS Sequoia. Due to regulatory difficulties brought on by the EU’s Digital Markets Act (DMA), the business said on Friday that three features Phone Mirroring, SharePlay Screen Sharing improvements, and Apple Intelligence will not be made available to consumers in the EU this year.
-
-“Specifically, we are concerned that the interoperability requirements of the DMA could force us to compromise the integrity of our products in ways that risk user privacy and data security,” according to an email sent by Apple.
-
-“We are committed to collaborating with the European Commission in an attempt to find a solution that would enable us to deliver these features to our EU customers without compromising their safety.”</p>
-<p>According to the announcement, Apple Intelligence which leverages artificial intelligence (AI) to summon text, photos, and other content will be compatible with the iPhone 15 Pro, iPhone 15 Pro Max, iPad, Mac, and subsequent models that include the M1 processor. Mac PCs may view and interact with the phone’s screen thanks to iPhone Mirroring on MacOS Sequoia. Due to regulatory difficulties brought on by the EU’s Digital Markets Act (DMA), the business said on Friday that three features Phone Mirroring, SharePlay Screen Sharing improvements, and Apple Intelligence will not be made available to consumers in the EU this year.According to the announcement, Apple Intelligence which leverages artificial intelligence (AI) to summon text, photos, and other content will be compatible with the iPhone 15 Pro, iPhone 15 Pro Max, iPad, Mac, and subsequent models that include the M1 processor. Mac PCs may view and interact with the phone’s screen thanks to iPhone Mirroring on MacOS Sequoia. Due to regulatory difficulties brought on by the EU’s Digital Markets Act (DMA), the business said on Friday that three features Phone Mirroring, SharePlay Screen Sharing improvements, and Apple Intelligence will not be made available to consumers in the EU this year.
-
-“Specifically, we are concerned that the interoperability requirements of the DMA could force us to compromise the integrity of our products in ways that risk user privacy and data security,” according to an email sent by Apple.
-
-“We are committed to collaborating with the European Commission in an attempt to find a solution that would enable us to deliver these features to our EU customers without compromising their safety.”</p>
-<p>According to the announcement, Apple Intelligence which leverages artificial intelligence (AI) to summon text, photos, and other content will be compatible with the iPhone 15 Pro, iPhone 15 Pro Max, iPad, Mac, and subsequent models that include the M1 processor. Mac PCs may view and interact with the phone’s screen thanks to iPhone Mirroring on MacOS Sequoia. Due to regulatory difficulties brought on by the EU’s Digital Markets Act (DMA), the business said on Friday that three features Phone Mirroring, SharePlay Screen Sharing improvements, and Apple Intelligence will not be made available to consumers in the EU this year.According to the announcement, Apple Intelligence which leverages artificial intelligence (AI) to summon text, photos, and other content will be compatible with the iPhone 15 Pro, iPhone 15 Pro Max, iPad, Mac, and subsequent models that include the M1 processor. Mac PCs may view and interact with the phone’s screen thanks to iPhone Mirroring on MacOS Sequoia. Due to regulatory difficulties brought on by the EU’s Digital Markets Act (DMA), the business said on Friday that three features Phone Mirroring, SharePlay Screen Sharing improvements, and Apple Intelligence will not be made available to consumers in the EU this year.
-
-“Specifically, we are concerned that the interoperability requirements of the DMA could force us to compromise the integrity of our products in ways that risk user privacy and data security,” according to an email sent by Apple.
-
-“We are committed to collaborating with the European Commission in an attempt to find a solution that would enable us to deliver these features to our EU customers without compromising their safety.”</p>
-<p>According to the announcement, Apple Intelligence which leverages artificial intelligence (AI) to summon text, photos, and other content will be compatible with the iPhone 15 Pro, iPhone 15 Pro Max, iPad, Mac, and subsequent models that include the M1 processor. Mac PCs may view and interact with the phone’s screen thanks to iPhone Mirroring on MacOS Sequoia. Due to regulatory difficulties brought on by the EU’s Digital Markets Act (DMA), the business said on Friday that three features Phone Mirroring, SharePlay Screen Sharing improvements, and Apple Intelligence will not be made available to consumers in the EU this year.According to the announcement, Apple Intelligence which leverages artificial intelligence (AI) to summon text, photos, and other content will be compatible with the iPhone 15 Pro, iPhone 15 Pro Max, iPad, Mac, and subsequent models that include the M1 processor. Mac PCs may view and interact with the phone’s screen thanks to iPhone Mirroring on MacOS Sequoia. Due to regulatory difficulties brought on by the EU’s Digital Markets Act (DMA), the business said on Friday that three features Phone Mirroring, SharePlay Screen Sharing improvements, and Apple Intelligence will not be made available to consumers in the EU this year.
-
-“Specifically, we are concerned that the interoperability requirements of the DMA could force us to compromise the integrity of our products in ways that risk user privacy and data security,” according to an email sent by Apple.
-
-“We are committed to collaborating with the European Commission in an attempt to find a solution that would enable us to deliver these features to our EU customers without compromising their safety.”</p>
         <div className="why-choose">
           <h2>Why to Choose iGram Saver Video Downloader:</h2>
           <ul>
