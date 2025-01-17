@@ -21,7 +21,7 @@ export default function HomePage() {
             height="220"
           />
           <div className="section-text_content">
-            <h2>iGram iO - Instagram Downloader</h2>
+            <h2>iGram Saver - Instagram Downloader</h2>
             <p>
               iGram Saver is a free online tool that helps you to download
               instagram videos & reels at HD quality. You can download unlimited
@@ -152,7 +152,7 @@ export default function HomePage() {
         </div>
 
         <div className="why-choose">
-          <h2>Why to Choose iGram Saver iO Video Downloader:</h2>
+          <h2>Why to Choose iGram Saver Video Downloader:</h2>
           <ul>
             <li>✅ Download any public Instagram video within few clicks.</li>
             <li>✅ Login to you Instagram account is not required.</li>
