@@ -28,7 +28,7 @@ const AdBanner: React.FC<AdBannerProps> = ({
   }, []);
 
   return (
-    <div className={className} style={{ textAlign: 'center', margin: '20px 0' }}>
+    <div className={className} style={{ textAlign: 'center' }}>
       <script
        async
        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js`}>
