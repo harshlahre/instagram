@@ -234,3 +234,6 @@ a:hover {
 .list li {
   padding-bottom: 10px;
 }
+.py-8 {
+  padding-top: 0;
+}
