@@ -5,6 +5,7 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import { Navbar, Footer } from "@/components/layout";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { ReactQueryProvider } from "@/components/providers/react-query-provider";
+import Script from "next/script";
 
 import { cn } from "@/lib/utils";
 
@@ -150,6 +151,12 @@ export default function RootLayout({
           "overflow-x-hidden bg-background font-sans antialiased"
         )}
       >
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2008420195999107`}
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
         <section>
           {/* Add JSON-LD to your page */}
           <script
