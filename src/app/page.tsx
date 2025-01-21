@@ -14,7 +14,7 @@ export default function HomePage() {
       />
       </div>
       <h1 className="mb-8 text-balance text-center text-4xl font-extrabold">
-        Instagram Video Downloader
+        Instagram Reels Downloader
       </h1>
       <p className="desc">Save Instagram Videos, Reels and IGTV to gallery</p>
       <section className="flex flex-col items-center justify-center gap-4">
