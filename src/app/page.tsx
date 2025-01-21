@@ -5,9 +5,7 @@ import AdBanner from "@/components/AdBanner";
 export default function HomePage() {
   return (
     <div className="flex flex-col py-8">
-      <div className="pisco">
       <AdBanner />
-      </div>
       <h1 className="mb-8 text-balance text-center text-4xl font-extrabold">
         Instagram Reels Downloader
       </h1>
