@@ -151,12 +151,6 @@ export default function RootLayout({
           "overflow-x-hidden bg-background font-sans antialiased"
         )}
       >
-        <Script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2008420195999107`}
-          crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
         <section>
           {/* Add JSON-LD to your page */}
           <script

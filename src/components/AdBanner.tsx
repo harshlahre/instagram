@@ -1,43 +1,23 @@
-"use client";
+"use client"
 
-import React, { useEffect } from 'react';
+import { useEffect } from "react";
+import Script from "next/script";
 
-type AdBannerProps = {
-  adClient: string; // Google AdSense client ID
-  adSlot: string; // Ad slot ID
-  adFormat?: string; // Optional: Ad format (e.g., 'auto')
-  fullWidthResponsive?: boolean; // Optional: Full-width responsive ads
-  className?: string; // Optional: additional class names for styling
-};
-
-const AdBanner: React.FC<AdBannerProps> = ({
-  adClient,
-  adSlot,
-  adFormat = 'auto',
-  fullWidthResponsive = true,
-  className = '',
-}) => {
+const AdBanner = () => {
   useEffect(() => {
-    if (typeof window !== 'undefined' && window.adsbygoogle) {
-      try {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
-      } catch (e) {
-        console.error('AdSense error:', e);
-      }
+    try {
+      (window.adsbygoogle = window.adsbygoogle || []).push({});
+    } catch (e) {
+      console.error("AdSense script error:", e);
     }
   }, []);
 
   return (
-    <div className={className} style={{ textAlign: 'center' }}>
-      <ins
-        className="adsbygoogle"
-        style={{ display: 'block' }}
-        data-ad-client={adClient}
-        data-ad-slot={adSlot}
-        data-ad-format={adFormat}
-        data-full-width-responsive={fullWidthResponsive ? 'true' : 'false'}
-      ></ins>
-    </div>
+      <Script 
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2008420195999107`}
+        crossOrigin="anonymous"
+        strategy="lazyOnload"
+      />
   );
 };
 
