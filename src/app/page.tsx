@@ -7,7 +7,7 @@ export default function HomePage() {
     <div className="flex flex-col py-8">
       <AdBanner />
       <h1 className="mb-8 text-balance text-center text-4xl font-extrabold">
-        Instagram Reels Downloader
+        Instagram Reels & Video Downloader
       </h1>
       <p className="desc">Save Instagram Videos, Reels and IGTV to gallery</p>
       <section className="flex flex-col items-center justify-center gap-4">
