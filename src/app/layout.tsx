@@ -5,7 +5,6 @@ import { GoogleAnalytics } from "@next/third-parties/google";
 import { Navbar, Footer } from "@/components/layout";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { ReactQueryProvider } from "@/components/providers/react-query-provider";
-import Script from "next/script";
 
 import { cn } from "@/lib/utils";
 

@@ -1,11 +1,9 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
 import Image from "next/image";
-import AdBanner from "@/components/AdBanner";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col py-8">
-      <AdBanner />
       <h1 className="mb-8 text-balance text-center text-4xl font-extrabold">
         Instagram Reels & Video Downloader
       </h1>
