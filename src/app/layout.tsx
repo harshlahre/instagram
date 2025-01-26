@@ -20,7 +20,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Instagram Reels & Video Downloader - iGram Saver",
+  title: "Instagram Downloader Reels, Video - iGram Saver",
   description:
     "iGram Saver is an Instagram Downloader tool to download instagram video, reels, and IGTV in 4k HD quality directly to your mobile gallery, tablet or pc.",
   applicationName: "iGram Saver",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     statusBarStyle: "black-translucent",
   },
   openGraph: {
-    title: "Instagram Reels & Video Downloader - iGram Saver",
+    title: "Instagram Downloader Reels, Video - iGram Saver",
     description:
       "iGram Saver is an Instagram Downloader tool to download instagram video, reels, and IGTV in 4k HD quality directly to your mobile gallery, tablet or pc.",
     url: "https://igramsaver.io",
@@ -74,7 +74,7 @@ const jsonLd = {
     },
     {
       "@type": "WebPage",
-      name: "Instagram Reels & Video Downloader - iGram Saver",
+      name: "Instagram Downloader Reels, Video - iGram Saver",
       speakable: {
         "@type": "SpeakableSpecification",
         xpath: [
@@ -129,7 +129,7 @@ const jsonLd = {
           position: 1,
           item: {
             "@id": "https://igramsaver.io",
-            name: "Instagram Reels & Video Downloader - iGram Saver",
+            name: "Instagram Downloader Reels, Video - iGram Saver",
           },
         },
       ],
