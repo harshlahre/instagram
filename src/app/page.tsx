@@ -1,11 +1,9 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
 import Image from "next/image";
-import AdSense from "@/components/AdSense";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col py-8">
-      <AdSense />
       <h1 className="mb-8 text-balance text-center text-4xl font-extrabold">
         Instagram Video Downloader
       </h1>
