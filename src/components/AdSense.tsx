@@ -14,7 +14,7 @@ const AdSense = () => {
 
   return (
       <Script 
-        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2008420195999107`}
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2295806962223513`}
         crossOrigin="anonymous"
         strategy="lazyOnload"
       />

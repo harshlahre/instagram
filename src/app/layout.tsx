@@ -3,7 +3,7 @@ import { DM_Sans as FontSans } from "next/font/google";
 import type { Viewport } from 'next';
 import { GoogleAnalytics } from '@next/third-parties/google'
 import { Navbar, Footer } from "@/components/layout";
-import AdSense from "@/components/AdSense";
+import Script from "next/script";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { ReactQueryProvider } from "@/components/providers/react-query-provider";
 
@@ -21,8 +21,8 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  title: "iGram iO - Instagram Video Downloader",
-  description: "iGram Saver iO is an Instagram Downloader tool to download instagram video, reels, and IGTV in 4k HD quality directly to your mobile gallery, tablet or pc.",
+  title: "Instagram Video Downloader - iGram Saver",
+  description: "iGram Saver is an Instagram Downloader tool to download instagram video, reels, and IGTV in 4k HD quality directly to your mobile gallery, tablet or pc.",
   applicationName: 'iGram Saver',
   category: 'tools and utilities',
   alternates: {
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     statusBarStyle: 'black-translucent',
   },
   openGraph: {
-    title: 'iGram iO - Instagram Video Downloader',
+    title: 'Instagram Video Downloader - iGram Saver',
     description: 'iGram Saver is an Instagram Downloader tool to download instagram video, reels, and IGTV in 4k HD quality directly to your mobile gallery, tablet or pc.',
     url: 'https://igramsaver.io',
     locale: 'en-US',
@@ -77,7 +77,7 @@ const jsonLd = {
       },
       {
           "@type": "WebPage",
-          "name": "iGram iO - Instagram Video Downloader",
+          "name": "Instagram Video Downloader - iGram Saver",
           "speakable": {
               "@type": "SpeakableSpecification",
           },
@@ -131,7 +131,7 @@ const jsonLd = {
           "position": 1,
           "item": {
               "@id": "https://igramsaver.io",
-              "name": "iGram iO - Instagram Video Downloader"
+              "name": "Instagram Video Downloader - iGram Saver"
             }
         }
     ]
@@ -153,15 +153,20 @@ export default function RootLayout({
           "overflow-x-hidden bg-background font-sans antialiased"
         )}
       >
-        <AdSense />
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_GOOGLE_ADS_CLIENT_ID}`}
+          strategy="lazyOnload"
+          crossOrigin="anonymous"
+        />
         <section>
-         {/* Add JSON-LD to your page */}
+          {/* Add JSON-LD to your page */}
           <script
-           type="application/ld+json"
-           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
           />
           {/* ... */}
-       </section>
+        </section>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
