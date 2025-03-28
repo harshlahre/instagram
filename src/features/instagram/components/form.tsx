@@ -59,9 +59,11 @@ export function InstagramVideoForm() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="my-4 flex w-full max-w-2xl flex-col items-center rounded-lg border bg-accent/20 px-4 pb-16 pt-8 shadow-md sm:px-8"
+        className="bg-accent/20 my-4 flex w-full max-w-2xl flex-col items-center rounded-lg border px-4 pb-16 pt-8 shadow-md sm:px-8"
       >
-        <div className="mb-2 h-6 w-full px-2 text-start">{httpError}</div>
+        <div className="mb-2 h-6 w-full px-2 text-start">
+          {httpError}
+        </div>
         <div className="relative mb-6 flex w-full flex-col items-center gap-4 sm:flex-row">
           <FormField
             control={form.control}
@@ -94,7 +96,7 @@ export function InstagramVideoForm() {
             Download
           </Button>
         </div>
-
+        
         <p className="text-center">
           <a href="/#download1">How to Download Instagram Videos?</a>
         </p>

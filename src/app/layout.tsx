@@ -1,11 +1,11 @@
 import { Metadata } from "next";
 import { DM_Sans as FontSans } from "next/font/google";
-import type { Viewport } from "next";
-import { GoogleAnalytics } from "@next/third-parties/google";
+import type { Viewport } from 'next';
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { Navbar, Footer } from "@/components/layout";
+import AdSense from "@/components/AdSense";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { ReactQueryProvider } from "@/components/providers/react-query-provider";
-import Script from "next/script";
 
 import { cn } from "@/lib/utils";
 
@@ -17,126 +17,128 @@ const fontSans = FontSans({
 });
 
 export const viewport: Viewport = {
-  themeColor: "#4285f4",
-};
+  themeColor: '#4285f4',
+}
 
 export const metadata: Metadata = {
-  title: "Instagram Downloader Reels, Video - iGram Saver",
-  description:
-    "iGram Saver is an Instagram Downloader tool to download instagram video, reels, and IGTV in 4k HD quality directly to your mobile gallery, tablet or pc.",
-  applicationName: "iGram Saver",
-  category: "tools and utilities",
+  title: "iGram iO - Instagram Video Downloader",
+  description: "iGram Saver iO is an Instagram Downloader tool to download instagram video, reels, and IGTV in 4k HD quality directly to your mobile gallery, tablet or pc.",
+  applicationName: 'iGram Saver',
+  category: 'tools and utilities',
   alternates: {
-    canonical: "https://igramsaver.io",
+    canonical: 'https://igramsaver.io',
   },
   manifest: "/site.webmanifest",
   icons: {
-    icon: [{ url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" }],
-    shortcut: ["/images/logo.png"],
-    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
-  },
-  appleWebApp: {
-    title: "iGram Saver",
-    statusBarStyle: "black-translucent",
-  },
-  openGraph: {
-    title: "Instagram Downloader Reels, Video - iGram Saver",
-    description:
-      "iGram Saver is an Instagram Downloader tool to download instagram video, reels, and IGTV in 4k HD quality directly to your mobile gallery, tablet or pc.",
-    url: "https://igramsaver.io",
-    locale: "en-US",
-    type: "website",
-    siteName: "iGram.IO",
-    images: [
-      {
-        url: "http://igramsaver.io/images/main-image.webp",
-        width: 500,
-        height: 420,
-        alt: "Instagram Video Saver",
-      },
+    icon: [
+      { url: '/favicon.ico', sizes: '32x32', type: 'image/x-icon' },
+    ],
+    shortcut: ['/images/logo.png'],
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
     ],
   },
+  appleWebApp: {
+    title: 'iGram Saver',
+    statusBarStyle: 'black-translucent',
+  },
+  openGraph: {
+    title: 'iGram iO - Instagram Video Downloader',
+    description: 'iGram Saver is an Instagram Downloader tool to download instagram video, reels, and IGTV in 4k HD quality directly to your mobile gallery, tablet or pc.',
+    url: 'https://igramsaver.io',
+    locale: 'en-US',
+    type: 'website',
+    siteName: 'iGram.IO',
+    images: [
+      {
+        url: 'http://igramsaver.io/images/main-image.webp',
+        width: 500,
+        height: 420,
+        alt: 'Instagram Video Saver',
+      },
+    ],
+  }
 };
 
 const jsonLd = {
   "@context": "http://schema.org",
   "@graph": [
-    {
-      "@type": "WebSite",
-      name: "iGram Saver",
-      alternateName: [
-        "Instagram Video Saver",
-        "iGramSaver",
-        "igram io",
-        "igram world",
-        "Instagram Reels Downloader",
-      ],
-      url: "https://igramsaver.io",
-    },
-    {
-      "@type": "WebPage",
-      name: "Instagram Downloader Reels, Video - iGram Saver",
-      speakable: {
-        "@type": "SpeakableSpecification",
-        xpath: [
-          "/html/head/title",
-          "/html/body/main//div[1]/h1"
-        ],
+      {
+          "@type": "WebSite",
+          "name": "iGram Saver",
+          "alternateName": [
+              "Instagram Video Saver",
+              "iGramSaver",
+              "igram io",
+              "igram world",
+              "Instagram Reels Downloader"
+          ],
+          "url": "https://igramsaver.io"
       },
-      inLanguage: "en",
-      description:
-        "iGram Saver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.",
-      url: "https://igramsaver.io",
-    },
-    {
-      "@type": "Organization",
-      name: "iGram Saver",
-      alternateName: "Instagram video saver",
-      url: "https://igramsaver.io",
-      email: "support@igramsaver.io",
-      logo: "https://igramsaver.io/images/logo.png",
-    },
-    {
-      "@type": "WebApplication",
-      name: "iGram Saver",
-      alternateName: [
-        "Instagram Video Saver",
-        "iGram Saver",
-        "igram",
-        "igram world",
-        "Instagram Reels Downloader",
-      ],
-      url: "https://igramsaver.io",
-      image: "https://igramsaver.io/images/logo.png",
-      operatingSystem: "Windows, Linux, iOS, Android, OSX, macOS",
-      applicationCategory: "UtilitiesApplication",
-      featureList: ["Video downloader", "Reel Downloader", "IGTV Downloader"],
-      contentRating: "Everyone",
-      aggregateRating: {
-        "@type": "AggregateRating",
-        ratingValue: "4.83",
-        reviewCount: "1873",
+      {
+          "@type": "WebPage",
+          "name": "iGram iO - Instagram Video Downloader",
+          "speakable": {
+              "@type": "SpeakableSpecification",
+          },
+          "inLanguage": "en",
+          "description": "iGram Saver is a Instagram Downloader tool to download instagram video, reels, and IGTV in HD quality directly to your mobile gallery, tablet or pc.",
+          "url": "https://igramsaver.io"
       },
-      offers: {
-        "@type": "Offer",
-        price: "0",
+      {
+          "@type": "Organization",
+          "name": "iGram Saver",
+          "alternateName": "Instagram video saver",
+          "url": "https://igramsaver.io",
+          "email": "support@igramsaver.io",
+          "logo": "https://igramsaver.io/images/logo.png"
       },
-    },
-    {
-      "@type": "BreadcrumbList",
-      itemListElement: [
+      {
+          "@type": "WebApplication",
+          "name": "iGram Saver",
+          "alternateName": [
+              "Instagram Video Saver",
+              "iGram Saver",
+              "igram",
+              "igram world",
+              "Instagram Reels Downloader"
+          ],
+          "url": "https://igramsaver.io",
+          "image": "https://igramsaver.io/images/logo.png",
+          "operatingSystem": "Windows, Linux, iOS, Android, OSX, macOS",
+          "applicationCategory": "UtilitiesApplication",
+          "featureList": [
+              "Video downloader",
+              "Reel Downloader",
+              "IGTV Downloader"
+          ],
+          "contentRating": "Everyone",
+          "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "4.83",
+              "reviewCount": "1873"
+          },
+          "offers": {
+              "@type": "Offer",
+              "price": "0"
+          }
+      },
+      {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
         {
           "@type": "ListItem",
-          position: 1,
-          item: {
-            "@id": "https://igramsaver.io",
-            name: "Instagram Downloader Reels, Video - iGram Saver",
-          },
-        },
-      ],
-    },
-  ],
-};
+          "position": 1,
+          "item": {
+              "@id": "https://igramsaver.io",
+              "name": "iGram iO - Instagram Video Downloader"
+            }
+        }
+    ]
+      }
+  ]
+}
+
 
 export default function RootLayout({
   children,
@@ -151,20 +153,15 @@ export default function RootLayout({
           "overflow-x-hidden bg-background font-sans antialiased"
         )}
       >
-        <Script
-          async
-          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2295806962223513`}
-          crossOrigin="anonymous"
-          strategy="lazyOnload"
-        />
+        <AdSense />
         <section>
-          {/* Add JSON-LD to your page */}
+         {/* Add JSON-LD to your page */}
           <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+           type="application/ld+json"
+           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
           />
           {/* ... */}
-        </section>
+       </section>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

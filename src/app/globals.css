@@ -74,29 +74,15 @@
 }
 @media (max-width: 767px) {
   .article {
-    width: 100%;
-    margin: 0 0 50px;
+      width: 100%;
+      margin: 0 0 50px;
   }
 }
-a,
-body,
-li,
-p {
+a, body, li, p {
   line-height: 1.5;
   font-size: 17px;
 }
-body,
-button,
-figure,
-h1,
-h2,
-h3,
-h5,
-html,
-li,
-ol,
-p,
-ul {
+body, button, figure, h1, h2, h3, h5, html, li, ol, p, ul {
   margin: 0;
   padding: 0;
   border: 0;
@@ -111,14 +97,11 @@ ul {
   font-size: 18px;
   margin-bottom: 25px;
 }
-table,
-table a {
+table, table a {
   word-break: normal;
   text-decoration: none;
 }
-table,
-table a,
-td {
+table, table a, td {
   font-size: 16.5px;
   line-height: 1.4;
 }
@@ -132,7 +115,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(221, 220, 220, 0.5);
+  border-top: 1px solid rgba(221, 220, 220, 0.5)
 }
 
 .article h2 {
@@ -156,26 +139,24 @@ a:hover {
 .accordion {
   border: 1px solid #ccc;
   border-radius: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 20px
 }
 
 .accordion-header {
   cursor: pointer;
   padding: 15px;
-  font-weight: 600;
+  font-weight: 600
 }
 
 .accordion-content {
   padding: 15px 15px 0 15px;
   display: block;
   border-top: 1px dashed #aaa;
-  transition:
-    max-height 0.3s ease-out,
-    padding 0.3s ease-out;
+  transition: max-height .3s ease-out, padding .3s ease-out
 }
 .desc {
   text-align: center;
-  margin: -20px 0 15px 0;
+  margin: -20px 0 15px 0 ;
 }
 .section-text {
   display: grid;
@@ -219,46 +200,46 @@ a:hover {
 }
 @media (max-width: 768px) {
   .section-text_card {
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-    max-width: 492px;
+      grid-template-columns: 1fr;
+      margin: 0 auto;
+      max-width: 492px;
   }
 }
 @media (max-width: 768px) {
   .section-text {
-    margin: 32px auto;
+      margin: 32px auto;
   }
 }
 @media (max-width: 768px) {
   .section-text img {
-    border-radius: 12px 12px 0 0;
-    width: 100%;
+      border-radius: 12px 12px 0 0;
+      width: 100%;
   }
 }
 @media (max-width: 768px) {
   .section-text_content {
-    padding: 20px 16px;
+      padding: 20px 16px;
   }
 }
 @media (max-width: 768px) {
   .section-text_content h2 {
-    font-size: 24px;
-    line-height: 1.5em;
-    margin: 0 auto 16px;
+      font-size: 24px;
+      line-height: 1.5em;
+      margin: 0 auto 16px;
   }
 }
 .down-steps {
-  display: grid;
-  gap: 24px;
-  grid-template-areas: "a b c";
-  grid-template-columns: repeat(3, 1fr);
-  list-style: none;
-  margin: 0 0 24px 0;
-  padding: 0 10px;
+    display: grid;
+    gap: 24px;
+    grid-template-areas: "a b c";
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    margin: 0 0 24px 0;
+    padding: 0 10px;
 }
 .down-steps li {
-  border-radius: 12px;
-  border: 1px solid #c3c1c1;
+    border-radius: 12px;
+    border: 1px solid #c3c1c1;
 }
 .down-steps img {
   border-radius: 12px 12px 0 0;
@@ -293,7 +274,7 @@ a:hover {
 }
 @media (max-width: 600px) {
   .down-steps {
-    grid-template-areas:
+      grid-template-areas:
       "a"
       "b"
       "c";
@@ -301,12 +282,12 @@ a:hover {
 }
 @media (max-width: 900px) {
   .down-steps {
-    grid-template-columns: inherit;
+      grid-template-columns: inherit;
   }
 }
 @media (max-width: 900px) {
   .down-steps img {
-    width: 100%;
+      width: 100%;
   }
 }
 .terms-privacy p {
@@ -327,9 +308,7 @@ a:hover {
 .terms-privacy a {
   color: #136cf0;
 }
-.mb-4,
-.text-2xl,
-.font-bold {
+.mb-4, .text-2xl, .font-bold {
   font-size: 28px;
 }
 .disclaimer {
@@ -389,43 +368,43 @@ a:hover {
 }
 @media (max-width: 768px) {
   .section-features_list {
-    gap: 26px;
+      gap: 26px;
   }
 }
 @media (max-width: 768px) {
   .section-features_list li {
-    grid-template-areas:
+      grid-template-areas:
       "img"
       "text";
-    margin: 0 auto;
-    max-width: 492px;
+      margin: 0 auto;
+      max-width: 492px;
   }
 }
 @media (max-width: 768px) {
   .section-features_list li:nth-of-type(2n) {
-    grid-template-areas:
+      grid-template-areas:
       "img"
       "text";
   }
 }
 @media (max-width: 768px) {
   .section-features_list div {
-    padding: 20px 16px;
+      padding: 20px 16px;
   }
 }
 @media (max-width: 768px) {
   .section-features_list img {
-    width: 100%;
+      width: 100%;
   }
 }
 @media (max-width: 768px) {
   .section-features_list li img {
-    border-radius: 12px 12px 0 0;
+      border-radius: 12px 12px 0 0;
   }
 }
 @media (max-width: 768px) {
   .section-features_list li:nth-of-type(2n) img {
-    border-radius: 12px 12px 0 0;
+      border-radius: 12px 12px 0 0;
   }
 }
 .why-choose {

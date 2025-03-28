@@ -23,6 +23,7 @@ export function MobileNav({ className }: { className?: string }) {
         </Button>
       </SheetTrigger>
       <SheetContent side="left">
+      
         <h2 className="mb-4 text-center text-lg font-semibold">
           Site Navigation
         </h2>
@@ -44,6 +45,7 @@ export function MobileNav({ className }: { className?: string }) {
             </li>
           ))}
         </ul>
+        
       </SheetContent>
     </Sheet>
   );

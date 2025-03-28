@@ -1,6 +1,7 @@
 "use client"
 
 import { useEffect } from "react";
+import Script from "next/script";
 
 const AdSense = () => {
   useEffect(() => {
@@ -12,8 +13,11 @@ const AdSense = () => {
   }, []);
 
   return (
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2295806962223513"
-    crossOrigin="anonymous"></script>
+      <Script 
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2008420195999107`}
+        crossOrigin="anonymous"
+        strategy="lazyOnload"
+      />
   );
 };
 
