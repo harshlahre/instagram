@@ -1,9 +1,11 @@
 import { InstagramVideoForm } from "@/features/instagram/components/form";
 import  Image  from "next/image"
+import AdSense from "@/components/AdSense";
 
 export default function HomePage() {
   return (
     <div className="flex flex-col py-8">
+        <AdSense />
       <h1 className="text-balance mb-8 text-center text-4xl font-extrabold">
       Instagram Video Downloader
       </h1>
@@ -15,7 +17,7 @@ export default function HomePage() {
         <div className="section-text_card">
           <Image src="/images/main-image.webp" priority alt="Instagram Reels Download" width="289" height="220"/>
         <div className="section-text_content">
-            <h2>iGram iO - Instagram Downloader</h2>
+            <h2>Instagram Downloader - iGram Saver</h2>
             <p>iGram Saver is a free online tool that helps you to download instagram videos & reels at HD quality. You can download unlimited Instagram videos at no cost and without watermark.</p>
         </div>
        </div>
@@ -75,7 +77,7 @@ export default function HomePage() {
 </div>
 
     <div className="why-choose">
-        <h2>Why to Choose iGram Saver iO Video Downloader:</h2>
+        <h2>Why to Choose iGram Saver Video Downloader:</h2>
                 <ul>
                     <li>✅ Download any public Instagram video within few clicks.</li>
                     <li>✅ Login to you Instagram account is not required.</li>
